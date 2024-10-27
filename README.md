@@ -101,7 +101,7 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
-    -Code :
+    - Code :
    
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo3.PNG?raw=true)
 
