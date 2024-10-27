@@ -15,6 +15,9 @@ This project is a collection of exercises designed to enhance understanding and 
 - [Contributing](#contributing)
 - [License](#license)
 
+##TP1:Tables and strings 
+This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
+ 
 ## Exercises
 
 1. **Exercise 1: Managing Student Grades**
