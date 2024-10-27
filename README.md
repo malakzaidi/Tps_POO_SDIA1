@@ -9,13 +9,14 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Exercises](#exercises)
+- [TP1](#tp1)
+- [TP1's Exercises](#tp1'sexercises)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-##TP1:Tables and strings 
+## TP1:Tables and strings 
 This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
  
 ## Exercises
