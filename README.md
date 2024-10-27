@@ -37,15 +37,15 @@ This collection of exercises is designed to get familiar with Java and be able t
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo1.PNG?raw=true)
 
    -Explanation 
-    -Imports:
+    - Imports:
    `java.util.Arrays`: Provides utility functions for working with arrays, specifically sort() to sort grades in ascending order.
    `java.util.Scanner`: Allows capturing user input for student grades.
-   Attributes:
+    - Attributes:
    `notes`: A double array to store each student's grade.
-   Constructor:
+   - Constructor:
    Initializes the notes array with user-specified grades, using a loop to request each grade.
    The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
-   Methods:
+   - Methods:
    `trierNotes()`: Sorts the notes array in ascending order.
    `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
    `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
