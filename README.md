@@ -46,11 +46,11 @@ This collection of exercises is designed to get familiar with Java and be able t
    Initializes the notes array with user-specified grades, using a loop to request each grade.
    The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
    - Methods:
-   -  `trierNotes()`: Sorts the notes array in ascending order.
-   -  `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
-   -  `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
-   -  `notemaximale()`: Returns the highest grade, assuming the array is sorted.
-   -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
+      -  `trierNotes()`: Sorts the notes array in ascending order.
+      -  `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
+      -  `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
+      -  `notemaximale()`: Returns the highest grade, assuming the array is sorted.
+      -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
 
 3. **Exercise 2: Verb Conjugation**
    - Description: A program to conjugate verbs from the first group in French.
