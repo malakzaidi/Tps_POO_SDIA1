@@ -71,7 +71,7 @@ This collection of exercises is designed to get familiar with Java and be able t
         
 2. **Exercise 2: Verb Conjugation**
 
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex2.PNG?raw=true)
    
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
