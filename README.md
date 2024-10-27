@@ -161,7 +161,7 @@ This collection of exercises is designed to get familiar with Java and be able t
         Depending on the user’s choice, it creates instances of different classes (`Exercice1`, `Exercice2`, `Exercice3`, and `Exercice4`) and calls their methods to perform the respective operations.
       - Code:
         
-        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_135703106.png?raw=true)
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_135703106.png?raw=true)
       
       - Explanation:
          1. **Scanner and Menu Display**:  
