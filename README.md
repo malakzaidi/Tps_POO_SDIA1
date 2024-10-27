@@ -42,7 +42,7 @@ This collection of exercises is designed to get familiar with Java and be able t
       - `java.util.Scanner`: Allows capturing user input for student grades.
     - Attributes:
       - `notes`: A double array to store each student's grade.
-   - Constructor:
+    - Constructor:
    Initializes the notes array with user-specified grades, using a loop to request each grade.
    The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
    - Methods:
@@ -64,11 +64,11 @@ This collection of exercises is designed to get familiar with Java and be able t
      -Explanation 
       - Attributes:
        - `verbe`: A private String attribute that stores the verb to be conjugated.
-   - Constructor:
+      - Constructor:
        - `Exercice2(String verbe)`: Initializes the verbe attribute with the verb provided by the user.
-   - Methods:
+      - Methods:
        - `estVerbePremierGroupe()`: Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
-    Returns true if the verb is valid, allowing conjugation in the first group.
+       Returns true if the verb is valid, allowing conjugation in the first group.
        - `conjuguer()`: Conjugates the verb in the present tense.
    It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
    If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
