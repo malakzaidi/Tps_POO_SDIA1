@@ -53,16 +53,19 @@ This collection of exercises is designed to get familiar with Java and be able t
       -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
 
 3. **Exercise 2: Verb Conjugation**
+
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
+   
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
      - `conjuguer()`: Conjugates the given verb according to French grammar rules.
 
-4. **Exercise 3: String Operations**
+5. **Exercise 3: String Operations**
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
-5. **Exercise 4: Letter Occurrences**
+6. **Exercise 4: Letter Occurrences**
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
