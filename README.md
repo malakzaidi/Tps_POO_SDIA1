@@ -51,6 +51,21 @@ This collection of exercises is designed to get familiar with Java and be able t
       -  `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
       -  `notemaximale()`: Returns the highest grade, assuming the array is sorted.
       -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
+     This Java code defines a class `Exercice1` that handles various operations on a set of student grades. Here's a breakdown of each part:
+     1. **Attributes and Initialization**:
+    The `notes` attribute is an array to store student grades. The constructor `Exercice1` takes the number of students (`numEtudiants`) as a parameter and initializes the `notes` array to that size. It then 
+    prompts the user to enter a grade for each student, storing each entry in the array. The `Scanner` used for input is closed after all entries to free resources.
+     2. **Sorting Grades**:
+    The `trierNotes` method sorts the `notes` array in ascending order using `Arrays.sort()`. This allows easier access to the minimum and maximum values.
+     3. **Calculating the Average Grade**:
+    The `moyenne` method calculates the average grade by summing all values in `notes` and dividing by the number of entries. It then returns this average.
+     4. **Finding the Minimum and Maximum Grades**:
+     - `noteminimale`: Returns the first element in the `notes` array, which is the smallest value if the array is sorted.
+     - `notemaximale`: Returns the last element in the `notes` array, which is the largest value if the array is sorted.
+     5. **Counting Students with a Specific Grade**:
+    The `compterEtudiants` method counts how many students have a particular grade (`noteSaisie`). It loops through the `notes` array, increments a counter each time a grade matches `noteSaisie`, and then returns 
+    this count.
+    In summary, `Exercice1` allows users to enter and manage student grades, providing functionality to sort, average, find min/max grades, and count occurrences of a specific grade.
 
 2. **Exercise 2: Verb Conjugation**
 
@@ -94,6 +109,18 @@ This collection of exercises is designed to get familiar with Java and be able t
         - `menu()`: Shows a menu for the user to perform various operations on the string. It uses a do-while loop to keep showing the menu until the user chooses to quit by entering 0.
     Each option in the menu() corresponds to a method, allowing the user to input, view, reverse, or count words in the string as needed. This structure provides interactive control to manage the chaine string in 
     multiple ways.
+    This Java class, `Exercice2`, is designed to conjugate verbs in the present tense that belong to the "first group" of French verbs (those ending in "er"). Here's a detailed explanation:
+    1. **Attributes and Initialization**:
+    The class has a private attribute, `verbe`, which stores the verb entered by the user. The constructor `Exercice2(String verbe)` takes this verb as a parameter and initializes it.
+    2. **Checking Verb Validity**:
+    The method `estVerbePremierGroupe` checks if the verb belongs to the first group by ensuring it ends with "er" and has a length greater than two. This helps verify that the verb can be conjugated according to 
+    the rules applied within this class.
+    3. **Conjugating the Verb**:
+    The `conjuguer` method conjugates the verb if it passes the first-group check in `estVerbePremierGroupe`. If the verb is valid, the method:
+   - Extracts the verb's root (by removing the last two characters, "er").
+   - Prints the conjugation for each subject pronoun (je, tu, il/elle, nous, vous, ils/elles) by adding the appropriate ending to the verb's root. 
+   If the verb is not in the first group, it outputs a message indicating that the verb does not belong to the expected category.
+   In summary, `Exercice2` allows users to input a verb, verify if it can be conjugated as a first-group verb, and display its present-tense conjugation if it is valid.
  
 4. **Exercise 4: Letter Occurrences**
 
@@ -102,7 +129,21 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)      
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)
+   - Explanation :
+     This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
+     1. **Setting Up Attributes and Importing Scanner**:
+     The program begins by importing `Scanner`, a utility for reading user input. It then defines a private attribute `texte`, which will store the user-inputted line of text.
+     2. **Text Input Method**:
+     The method `saisirTexte` prompts the user to enter a line of text up to 100 characters. The user input is read using the `Scanner` and then converted to uppercase, ensuring that all letters are in a 
+     consistent format for counting (making the counting case-insensitive).
+     4. **Counting Letter Occurrences**:
+     The `compterOccurrences` method counts how often each letter appears in the input text:
+     - First, an integer array of size 26 is created, where each index represents a letter in the alphabet (e.g., index 0 for ‘A’, 1 for ‘B’, etc.).
+     - The program then loops through each character of the input text, checking if the character is a letter. If it is, the program increments the count in the array at the index corresponding to that letter.
+     - Finally, it prints each letter and its count if the letter appears at least once in the text, converting the index back to the corresponding letter.
+      In summary, this code takes user input, converts it to uppercase for uniformity, counts occurrences of each letter in the English alphabet, and then displays the results. Non-letter characters are ignored 
+      in the counting process.     
 
 ## Installation
 
