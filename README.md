@@ -82,13 +82,24 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo3.PNG?raw=true)
-        
-   
 
+    -Explanation 
+      - Attributes:
+        - `chaine`: Stores the string entered by the user.
+      - Methods:
+        - `saisir()`: Prompts the user to enter a string, which is then stored in the chaine attribute.
+        - `afficher()`: Displays the stored string to the console.
+        - `inverser()`: Reverses the stored string using StringBuilder and displays the reversed version.
+        - `compterMots()`: Counts the words in the string. It trims any extra spaces and splits the string by spaces, then prints the word count.
+        - `menu()`: Shows a menu for the user to perform various operations on the string. It uses a do-while loop to keep showing the menu until the user chooses to quit by entering 0.
+    Each option in the menu() corresponds to a method, allowing the user to input, view, reverse, or count words in the string as needed. This structure provides interactive control to manage the chaine string in 
+    multiple ways.
+ 
 4. **Exercise 4: Letter Occurrences**
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
+     - 
 
 ## Installation
 
