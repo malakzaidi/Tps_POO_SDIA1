@@ -39,7 +39,7 @@ public class Exercice1 {
         public double notemaximale() {
             return notes[notes.length - 1];
         }
-       // Method to count the number of students with a specific grade
+       // Compter le nombre des étudiants avec une note spécifique
         public int compterEtudiants(double noteSaisie) {
         int count = 0;
         for (double note : notes) {
