@@ -76,7 +76,7 @@ This collection of exercises is designed to get familiar with Java and be able t
  
 3. **Exercise 3: String Operations**
 
-    ![image_alt]( ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex3.PNG?raw=true)
    
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
