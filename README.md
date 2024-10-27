@@ -24,6 +24,7 @@ This collection of exercises is designed to get familiar with Java and be able t
 ## Exercises
 
 1. **Exercise 1: Managing Student Grades**
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_043038262.png?raw=true)
    - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
    - Key Methods:
      - `trierNotes()`: Sorts the list of grades.
@@ -32,17 +33,17 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `notemaximale()`: Finds the maximum grade.
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
 
-2. **Exercise 2: Verb Conjugation**
+3. **Exercise 2: Verb Conjugation**
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
      - `conjuguer()`: Conjugates the given verb according to French grammar rules.
 
-3. **Exercise 3: String Operations**
+4. **Exercise 3: String Operations**
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
-4. **Exercise 4: Letter Occurrences**
+5. **Exercise 4: Letter Occurrences**
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
