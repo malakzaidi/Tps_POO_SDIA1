@@ -124,12 +124,12 @@ This collection of exercises is designed to get familiar with Java and be able t
  
 4. **Exercise 4: Letter Occurrences**
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131207489.png?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131207489.png?raw=true)
    
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)
    - Explanation :
      This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
      1. **Setting Up Attributes and Importing Scanner**:
