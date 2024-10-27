@@ -59,7 +59,19 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
      - `conjuguer()`: Conjugates the given verb according to French grammar rules.
-   ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)            
+   ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)
+   -Explanation 
+    -Attributes:
+     -verbe: A private String attribute that stores the verb to be conjugated.
+   -Constructor:
+     -Exercice2(String verbe): Initializes the verbe attribute with the verb provided by the user.
+   -Methods:
+    -estVerbePremierGroupe(): Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
+    Returns true if the verb is valid, allowing conjugation in the first group.
+    -conjuguer(): Conjugates the verb in the present tense.
+   It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
+   If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
+   If the verb is invalid, it displays a message indicating the verb is not first-group.         
  
 5. **Exercise 3: String Operations**
    - Description: Various operations on strings, such as reversal, counting characters, and more.
