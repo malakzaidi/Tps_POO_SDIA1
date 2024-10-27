@@ -194,7 +194,7 @@ This collection of exercises is designed to get familiar with Java and be able t
 
         - **Case 2 (Verb Conjugation)**:
 
-         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_142030792.png?raw=true)
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_142030792.png?raw=true)
           
         - **Case 3 (String Operations)**:  
           
