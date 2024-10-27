@@ -34,7 +34,7 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `noteminimale()`: Finds the minimum grade.
      - `notemaximale()`: Finds the maximum grade.
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo1.PNG?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_122132950.png?raw=true)
 
    -Explanation 
     - Imports:
