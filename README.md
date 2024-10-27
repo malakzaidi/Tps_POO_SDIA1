@@ -36,7 +36,7 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_122132950.png?raw=true)
 
-   -Explanation 
+   - Explanation 
     - Imports:
       - `java.util.Arrays`: Provides utility functions for working with arrays, specifically sort() to sort grades in ascending order.
       - `java.util.Scanner`: Allows capturing user input for student grades.
@@ -76,7 +76,7 @@ This collection of exercises is designed to get familiar with Java and be able t
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
    ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)
 
-   -Explanation 
+   - Explanation 
      - Attributes:
        - `verbe`: A private String attribute that stores the verb to be conjugated.
      - Constructor:
@@ -98,7 +98,7 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `menu()`: Displays the options for string operations and processes user input.
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo3.PNG?raw=true)
 
-    -Explanation 
+    - Explanation 
       - Attributes:
         - `chaine`: Stores the string entered by the user.
       - Methods:
@@ -110,17 +110,17 @@ This collection of exercises is designed to get familiar with Java and be able t
     Each option in the menu() corresponds to a method, allowing the user to input, view, reverse, or count words in the string as needed. This structure provides interactive control to manage the chaine string in 
     multiple ways.
     This Java class, `Exercice2`, is designed to conjugate verbs in the present tense that belong to the "first group" of French verbs (those ending in "er"). Here's a detailed explanation:
-    1. **Attributes and Initialization**:
-    The class has a private attribute, `verbe`, which stores the verb entered by the user. The constructor `Exercice2(String verbe)` takes this verb as a parameter and initializes it.
-    2. **Checking Verb Validity**:
-    The method `estVerbePremierGroupe` checks if the verb belongs to the first group by ensuring it ends with "er" and has a length greater than two. This helps verify that the verb can be conjugated according to 
-    the rules applied within this class.
-    3. **Conjugating the Verb**:
-    The `conjuguer` method conjugates the verb if it passes the first-group check in `estVerbePremierGroupe`. If the verb is valid, the method:
-   - Extracts the verb's root (by removing the last two characters, "er").
-   - Prints the conjugation for each subject pronoun (je, tu, il/elle, nous, vous, ils/elles) by adding the appropriate ending to the verb's root. 
-   If the verb is not in the first group, it outputs a message indicating that the verb does not belong to the expected category.
-   In summary, `Exercice2` allows users to input a verb, verify if it can be conjugated as a first-group verb, and display its present-tense conjugation if it is valid.
+       1. **Attributes and Initialization**:
+       The class has a private attribute, `verbe`, which stores the verb entered by the user. The constructor `Exercice2(String verbe)` takes this verb as a parameter and initializes it.
+       2. **Checking Verb Validity**:
+       The method `estVerbePremierGroupe` checks if the verb belongs to the first group by ensuring it ends with "er" and has a length greater than two. This helps verify that the verb can be conjugated according 
+       to the rules applied within this class.
+       3. **Conjugating the Verb**:
+        The `conjuguer` method conjugates the verb if it passes the first-group check in `estVerbePremierGroupe`. If the verb is valid, the method:
+        - Extracts the verb's root (by removing the last two characters, "er").
+        - Prints the conjugation for each subject pronoun (je, tu, il/elle, nous, vous, ils/elles) by adding the appropriate ending to the verb's root. 
+        If the verb is not in the first group, it outputs a message indicating that the verb does not belong to the expected category.
+        In summary, `Exercice2` allows users to input a verb, verify if it can be conjugated as a first-group verb, and display its present-tense conjugation if it is valid.
  
 4. **Exercise 4: Letter Occurrences**
 
