@@ -9,8 +9,7 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [TP1:Tables and strings ](#tp1)
-- [Exercises](exercises)
+- [TP1](#tp1)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
