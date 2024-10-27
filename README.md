@@ -36,6 +36,22 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo1.PNG?raw=true)
 
+   -Explanation 
+    -Imports:
+   `java.util.Arrays`: Provides utility functions for working with arrays, specifically sort() to sort grades in ascending order.
+   `java.util.Scanner`: Allows capturing user input for student grades.
+   Attributes:
+   `notes`: A double array to store each student's grade.
+   Constructor:
+   Initializes the notes array with user-specified grades, using a loop to request each grade.
+   The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
+   Methods:
+   `trierNotes()`: Sorts the notes array in ascending order.
+   `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
+   `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
+   `notemaximale()`: Returns the highest grade, assuming the array is sorted.
+   `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
+
 3. **Exercise 2: Verb Conjugation**
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
