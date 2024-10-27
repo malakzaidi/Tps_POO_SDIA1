@@ -78,7 +78,7 @@ This collection of exercises is designed to get familiar with Java and be able t
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
    - Code:
      
-   ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo2.PNG?raw=true)
 
    - Explanation 
      - Attributes:
