@@ -52,7 +52,7 @@ This collection of exercises is designed to get familiar with Java and be able t
       -  `notemaximale()`: Returns the highest grade, assuming the array is sorted.
       -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
 
-3. **Exercise 2: Verb Conjugation**
+2. **Exercise 2: Verb Conjugation**
 
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
    
@@ -74,12 +74,15 @@ This collection of exercises is designed to get familiar with Java and be able t
    If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
    If the verb is invalid, it displays a message indicating the verb is not first-group.         
  
-5. **Exercise 3: String Operations**
+3. **Exercise 3: String Operations**
+
+    ![image_alt]( ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
+   
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
-6. **Exercise 4: Letter Occurrences**
+4. **Exercise 4: Letter Occurrences**
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
