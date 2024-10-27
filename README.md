@@ -9,8 +9,8 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [TP1](#tp1)
-- [TP1's Exercises](#tp1'sexercises)
+- [TP1:Tables and strings ](#tp1)
+- [Exercises](exercises)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -211,7 +211,9 @@ This collection of exercises is designed to get familiar with Java and be able t
           
          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_145014335.png?raw=true)
 
-        - **Default Case**:  
+        - **Default Case**:
+
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_145727803.png?raw=true)
       
        ### Summary
       The `Main` class facilitates user interaction, allowing the user to select and execute various exercises by managing different classes and ensuring smooth navigation through each option in a single 
