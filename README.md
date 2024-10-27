@@ -151,6 +151,7 @@ This collection of exercises is designed to get familiar with Java and be able t
         management, verb conjugation, string operations, and letter frequency analysis. This class uses a `do-while` loop to repeatedly display a menu of options until the user chooses to exit the program. 
         Depending on the user’s choice, it creates instances of different classes (`Exercice1`, `Exercice2`, `Exercice3`, and `Exercice4`) and calls their methods to perform the respective operations.
       - Code:
+        
         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_135703106.png?raw=true)
       
       - Explanation:
