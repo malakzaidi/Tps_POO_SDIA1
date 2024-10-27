@@ -195,11 +195,16 @@ This collection of exercises is designed to get familiar with Java and be able t
 
         - **Case 2 (Verb Conjugation)**:
           
+        - **Case 3 (String Operations)**:  
+          
          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_142030792.png?raw=true)
          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_142525505.png?raw=true)
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_142839389.png?raw=true)
 
-       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_142839389.png?raw=true)
-       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_143341201.png?raw=true)
+        - **Case 4 (Letter Occurrence Counting)**:
+   
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_143341201.png?raw=true)
+      
        ### Summary
       The `Main` class facilitates user interaction, allowing the user to select and execute various exercises by managing different classes and ensuring smooth navigation through each option in a single 
       interface.
