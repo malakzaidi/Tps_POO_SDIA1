@@ -17,6 +17,7 @@ This project is a collection of exercises designed to enhance understanding and 
 - [License](#license)
 
 ## TP1:Tables and strings 
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_043038262.png?raw=true)
 
 This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
@@ -34,6 +35,8 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `noteminimale()`: Finds the minimum grade.
      - `notemaximale()`: Finds the maximum grade.
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
+   - Code:
+       
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_122132950.png?raw=true)
 
    - Explanation 
@@ -74,6 +77,8 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
+   - Code:
+     
    ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)
 
    - Explanation 
@@ -96,6 +101,9 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
+
+    -Code :
+   
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo3.PNG?raw=true)
 
     - Explanation 
@@ -129,6 +137,8 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: A program to count occurrences of each letter in a given text.
    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
+   - Code :
+
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)
    - Explanation :
      This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
@@ -158,7 +168,7 @@ This collection of exercises is designed to get familiar with Java and be able t
          1. **Scanner and Menu Display**:  
          The program starts by creating a `Scanner` object to capture user input and an integer `choix` to hold the user’s choice. A `do-while` loop then displays the menu options, each associated with a specific 
          exercise, until the user selects the option to quit by entering `0`.
-        2. **User Choices and Exercise Execution**:
+         2. **User Choices and Exercise Execution**:
            - **Case 1 (Student Grades Management)**:  
          If the user selects `1`, the program prompts them to enter the number of students, initializes an `Exercice1` instance with that number, and:
              - Sorts and displays student grades.
@@ -176,7 +186,7 @@ This collection of exercises is designed to get familiar with Java and be able t
               Selecting `0` exits the loop, ending the program, and a closing message is displayed.
            - **Default Case**:  
               If the user enters an invalid option, an error message is shown, and the menu is redisplayed.
-         3. **Loop Continuation and Resource Management**:  
+          3. **Loop Continuation and Resource Management**:  
               The `do-while` loop continues running until `choix` is `0`. Finally, the `scanner` is closed to release resources once the user exits.
        ### Summary
       The `Main` class facilitates user interaction, allowing the user to select and execute various exercises by managing different classes and ensuring smooth navigation through each option in a single 
