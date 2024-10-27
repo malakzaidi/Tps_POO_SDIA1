@@ -17,6 +17,7 @@ This project is a collection of exercises designed to enhance understanding and 
 - [License](#license)
 
 ## TP1:Tables and strings 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_043038262.png?raw=true)
 This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
  
 ## Exercises
