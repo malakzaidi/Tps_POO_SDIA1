@@ -25,6 +25,7 @@ This collection of exercises is designed to get familiar with Java and be able t
 
 1. **Exercise 1: Managing Student Grades**
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_111933283.png?raw=true)
+   
    - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
    - Key Methods:
      - `trierNotes()`: Sorts the list of grades.
@@ -32,6 +33,7 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `noteminimale()`: Finds the minimum grade.
      - `notemaximale()`: Finds the maximum grade.
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo1.PNG?raw=true)
 
 3. **Exercise 2: Verb Conjugation**
    - Description: A program to conjugate verbs from the first group in French.
