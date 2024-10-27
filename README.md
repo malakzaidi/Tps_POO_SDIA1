@@ -138,7 +138,7 @@ This collection of exercises is designed to get familiar with Java and be able t
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
    - Code :
 
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_131827573.png?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131827573.png?raw=true)
    - Explanation :
      This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
      1. **Setting Up Attributes and Importing Scanner**:
