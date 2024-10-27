@@ -150,7 +150,9 @@ This collection of exercises is designed to get familiar with Java and be able t
         The `Main` class is designed as the entry point of a Java program that serves as a menu-driven interface for selecting different exercises. Each exercise focuses on a specific topic, like student grades 
         management, verb conjugation, string operations, and letter frequency analysis. This class uses a `do-while` loop to repeatedly display a menu of options until the user chooses to exit the program. 
         Depending on the user’s choice, it creates instances of different classes (`Exercice1`, `Exercice2`, `Exercice3`, and `Exercice4`) and calls their methods to perform the respective operations.
-
+      - Code:
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/image_2024-10-27_135703106.png?raw=true)
+      
       - Explanation:
          1. **Scanner and Menu Display**:  
          The program starts by creating a `Scanner` object to capture user input and an integer `choix` to hold the user’s choice. A `do-while` loop then displays the menu options, each associated with a specific 
