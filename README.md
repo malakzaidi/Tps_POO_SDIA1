@@ -81,6 +81,9 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo3.PNG?raw=true)
+        
+   
 
 4. **Exercise 4: Letter Occurrences**
    - Description: A program to count occurrences of each letter in a given text.
