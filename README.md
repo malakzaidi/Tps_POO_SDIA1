@@ -61,12 +61,12 @@ This collection of exercises is designed to get familiar with Java and be able t
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
    ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)
 
-     -Explanation 
-      - Attributes:
+   -Explanation 
+     - Attributes:
        - `verbe`: A private String attribute that stores the verb to be conjugated.
-      - Constructor:
+     - Constructor:
        - `Exercice2(String verbe)`: Initializes the verbe attribute with the verb provided by the user.
-      - Methods:
+     - Methods:
        - `estVerbePremierGroupe()`: Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
        Returns true if the verb is valid, allowing conjugation in the first group.
        - `conjuguer()`: Conjugates the verb in the present tense.
