@@ -59,7 +59,8 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
      - `conjuguer()`: Conjugates the given verb according to French grammar rules.
-
+   ![image_alt]( https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1exo2.PNG?raw=true)            
+ 
 5. **Exercise 3: String Operations**
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
