@@ -53,20 +53,20 @@ This collection of exercises is designed to get familiar with Java and be able t
       -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
      This Java code defines a class `Exercice1` that handles various operations on a set of student grades. Here's a breakdown of each part:
      1. **Attributes and Initialization**:
-    The `notes` attribute is an array to store student grades. The constructor `Exercice1` takes the number of students (`numEtudiants`) as a parameter and initializes the `notes` array to that size. It then 
-    prompts the user to enter a grade for each student, storing each entry in the array. The `Scanner` used for input is closed after all entries to free resources.
+       The `notes` attribute is an array to store student grades. The constructor `Exercice1` takes the number of students (`numEtudiants`) as a parameter and initializes the `notes` array to that size. It then 
+       prompts the user to enter a grade for each student, storing each entry in the array. The `Scanner` used for input is closed after all entries to free resources.
      2. **Sorting Grades**:
-    The `trierNotes` method sorts the `notes` array in ascending order using `Arrays.sort()`. This allows easier access to the minimum and maximum values.
+        The `trierNotes` method sorts the `notes` array in ascending order using `Arrays.sort()`. This allows easier access to the minimum and maximum values.
      3. **Calculating the Average Grade**:
-    The `moyenne` method calculates the average grade by summing all values in `notes` and dividing by the number of entries. It then returns this average.
+        The `moyenne` method calculates the average grade by summing all values in `notes` and dividing by the number of entries. It then returns this average.
      4. **Finding the Minimum and Maximum Grades**:
-     - `noteminimale`: Returns the first element in the `notes` array, which is the smallest value if the array is sorted.
-     - `notemaximale`: Returns the last element in the `notes` array, which is the largest value if the array is sorted.
+        - `noteminimale`: Returns the first element in the `notes` array, which is the smallest value if the array is sorted.
+        - `notemaximale`: Returns the last element in the `notes` array, which is the largest value if the array is sorted.
      5. **Counting Students with a Specific Grade**:
-    The `compterEtudiants` method counts how many students have a particular grade (`noteSaisie`). It loops through the `notes` array, increments a counter each time a grade matches `noteSaisie`, and then returns 
-    this count.
-    In summary, `Exercice1` allows users to enter and manage student grades, providing functionality to sort, average, find min/max grades, and count occurrences of a specific grade.
-
+        The `compterEtudiants` method counts how many students have a particular grade (`noteSaisie`). It loops through the `notes` array, increments a counter each time a grade matches `noteSaisie`, and then 
+        returns this count.
+        In summary, `Exercice1` allows users to enter and manage student grades, providing functionality to sort, average, find min/max grades, and count occurrences of a specific grade.
+        
 2. **Exercise 2: Verb Conjugation**
 
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/tp1ex2.PNG?raw=true)
@@ -85,7 +85,7 @@ This collection of exercises is designed to get familiar with Java and be able t
        - `estVerbePremierGroupe()`: Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
        Returns true if the verb is valid, allowing conjugation in the first group.
        - `conjuguer()`: Conjugates the verb in the present tense.
-   It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
+    It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
    If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
    If the verb is invalid, it displays a message indicating the verb is not first-group.         
  
@@ -133,12 +133,12 @@ This collection of exercises is designed to get familiar with Java and be able t
    - Explanation :
      This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
      1. **Setting Up Attributes and Importing Scanner**:
-     The program begins by importing `Scanner`, a utility for reading user input. It then defines a private attribute `texte`, which will store the user-inputted line of text.
+       The program begins by importing `Scanner`, a utility for reading user input. It then defines a private attribute `texte`, which will store the user-inputted line of text.
      2. **Text Input Method**:
-     The method `saisirTexte` prompts the user to enter a line of text up to 100 characters. The user input is read using the `Scanner` and then converted to uppercase, ensuring that all letters are in a 
-     consistent format for counting (making the counting case-insensitive).
+       The method `saisirTexte` prompts the user to enter a line of text up to 100 characters. The user input is read using the `Scanner` and then converted to uppercase, ensuring that all letters are in a 
+       consistent format for counting (making the counting case-insensitive).
      4. **Counting Letter Occurrences**:
-     The `compterOccurrences` method counts how often each letter appears in the input text:
+        The `compterOccurrences` method counts how often each letter appears in the input text:
      - First, an integer array of size 26 is created, where each index represents a letter in the alphabet (e.g., index 0 for ‘A’, 1 for ‘B’, etc.).
      - The program then loops through each character of the input text, checking if the character is a letter. If it is, the program increments the count in the array at the index corresponding to that letter.
      - Finally, it prints each letter and its count if the letter appears at least once in the text, converting the index back to the corresponding letter.
