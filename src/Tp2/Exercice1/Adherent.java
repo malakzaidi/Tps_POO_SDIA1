@@ -1,22 +1,22 @@
 package Tp2.Exercice1;
 
+
+// Classe représentant un adhérent d'une bibliothèque qui hérite de la classe Personne
 public class Adherent extends Personne {
-    private int numAdherent;
-    public Adherent(String firstname, String lastname, int age, String telephone, String email,int numAdherent) {
-        super(firstname, lastname, age, telephone, email);
+    private int numAdherent; // Numéro d'adhérent
+
+    // Constructeur pour initialiser les attributs de l'adhérent
+    public Adherent(String prenom, String nom, int age, String telephone, String email, int numAdherent) {
+        super(prenom, nom, age, telephone, email); // Appel au constructeur de la classe parente
         this.numAdherent = numAdherent;
     }
 
-    public int getNumAdherent() {
-        return numAdherent;
-    }
-    public void setNumAdherent(int numAdherent) {
-        this.numAdherent = numAdherent;
-    }
+    // Méthode pour afficher les informations de l'adhérent
     @Override
-    public void afficher(){
-        super.afficher();
-        System.out.println("numAdherent: " + numAdherent);
+    public void afficher() {
+        super.afficher(); // Appel à la méthode afficher de la classe parente
+        System.out.println("Num Adhérent: " + numAdherent); // Affiche le numéro d'adhérent
     }
 
 }
+
