@@ -21,7 +21,7 @@ This project is a collection of exercises designed to enhance understanding and 
    This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
    
   The link :
-        [Link Text](https://github.com/malakzaidi/Tps_POO_SDIA1/tree/main/TP1/src)
+        [TP1](https://github.com/malakzaidi/Tps_POO_SDIA1/tree/main/TP1/src)
 ## Installation
 1. Clone this repository:
    ```bash
