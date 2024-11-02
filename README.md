@@ -17,8 +17,11 @@ This project is a collection of exercises designed to enhance understanding and 
 
 ## Tps
 1. TP1: Tables and Strings
+   
    This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
+   
    The link :
+   TP1/src
 ## Installation
 1. Clone this repository:
    ```bash
