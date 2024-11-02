@@ -9,12 +9,14 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
+- [TPs](#Tps)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-
+##Tps
+1.TP1:Tables and Strings
 ## Installation
 1. Clone this repository:
    ```bash
