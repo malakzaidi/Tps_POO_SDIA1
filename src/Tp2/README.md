@@ -56,7 +56,7 @@ The **Library Management** exercise creates an application to manage books and l
 4. **Livre**:
    - **Attributes**: `ISBN`, `titre`, `auteur`
    - **Methods**: `afficher()` – Displays the ISBN, title, and author details of the book.
-      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/livre.PNG)
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/livree.PNG)
      
 ### Usage in Main
 The `Main` class demonstrates:
@@ -192,7 +192,7 @@ The `Main` class brings together the first three exercises with a menu for easy 
 3. **Exercise 3 (Command Management)**: Demonstrates creating a `Client`, `Commande`, `Categorie`, and associated `LigneCommande` entries.
 ---
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main.PNG)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_174745608.png)
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/mainn.PNG)
 
