@@ -1,7 +1,7 @@
 # TP2 - Object-Oriented Programming in Java
 
 This project contains four exercises designed to build object-oriented programming skills using Java. Each exercise explores a different management system (library, salary, command, and product management), allowing practical experience with classes, inheritance, interfaces, and polymorphism.
-[img](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_140447238.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_140447238.png)
 
 ## Table of Contents
 
