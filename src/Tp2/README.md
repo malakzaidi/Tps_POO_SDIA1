@@ -196,14 +196,18 @@ The `Main` class brings together the first three exercises with a menu for easy 
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/mainn.PNG)
 
-### Execution
+### Exécution
+
 **Case 1 (Exercise1)**:
+
 ![image_alt](https://github.com/user-attachments/assets/f411eb79-eb11-4ac4-a581-e8ab5fa8aeae)
 
 **Case 2 (Exercise2)**:
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main2.PNG)
 
 **Case 3 (Exercise3)**:
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main3.PNG)
 
 ## Installation
