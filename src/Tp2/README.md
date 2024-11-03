@@ -31,6 +31,7 @@ Each exercise includes various classes, attributes, methods, and relationships t
 ---
 
 ## Exercise 1: Library Management
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_140602209.png)
 
 ### Description
@@ -41,21 +42,25 @@ The **Library Management** exercise creates an application to manage books and l
 1. **Personne**:
    - **Attributes**: `nom`, `prenom`, `email`, `tel`, `age`
    - **Methods**: `afficher()` – Displays information about a person.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_140905299.png)
    
 2. **Adherent** (inherits from `Personne`):
    - **Attributes**: `numAdherent` (unique member ID)
    - **Methods**: `afficher()` – Overrides `Personne` to include `numAdherent`.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/adherent.PNG)
      
 3. **Auteur** (inherits from `Personne`):
    - **Attributes**: `numAuteur` (unique author ID)
    - **Methods**: `afficher()` – Overrides `Personne` to include `numAuteur`.
+     
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/author.PNG)
      
 4. **Livre**:
    - **Attributes**: `ISBN`, `titre`, `auteur`
    - **Methods**: `afficher()` – Displays the ISBN, title, and author details of the book.
+     
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/livree.PNG)
      
 ### Usage in Main
@@ -183,21 +188,27 @@ The **Product Management System** manipulates a collection of `Produit` objects 
 The `Application` class provides an interactive menu allowing users to manage products with options for displaying, adding, finding, and deleting products.
 ### Exécution
    - Ajouter un nouveau produit dans la liste
+     
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app3.PNG)
 
    - Afficher la liste des produits
+     
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app1.PNG)
 
    - Rechercher des produits par mot clé
+     
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
 
    - Récupérer et afficher un produit par ID
+     
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/id.PNG)
 
    - Supprimer un produit par ID
+     
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/supp.PNG)
 
   - Quitter
+    
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Quit.PNG)
    
     
