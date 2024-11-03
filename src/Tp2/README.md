@@ -32,8 +32,6 @@ Each exercise includes various classes, attributes, methods, and relationships t
 
 ## Exercise 1: Library Management
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/image_2024-11-03_140602209.png)
-
 ### Description
 The **Library Management** exercise creates an application to manage books and library members.
 
