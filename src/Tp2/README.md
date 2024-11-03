@@ -173,8 +173,11 @@ The **Product Management System** manipulates a collection of `Produit` objects 
        - Add a new product.
        - Find a product by ID.
        - Delete a product by ID.
+         
        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/appex4.PNG)
+
        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app2.PNG)
+       
 ### Usage in Main
 The `Application` class provides an interactive menu allowing users to manage products with options for displaying, adding, finding, and deleting products.
 
@@ -187,7 +190,9 @@ The `Main` class brings together the first three exercises with a menu for easy 
 2. **Exercise 2 (Salary Management)**: Demonstrates creating and displaying salary details for an `Ingenieur` and `Manager`.
 3. **Exercise 3 (Command Management)**: Demonstrates creating a `Client`, `Commande`, `Categorie`, and associated `LigneCommande` entries.
 ---
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main.PNG)
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/mainn.PNG)
 
 ## Installation
