@@ -192,10 +192,14 @@ The `Application` class provides an interactive menu allowing users to manage pr
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
 
    - Récupérer et afficher un produit par ID
-   ![image_alt]()
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/id.PNG)
 
    - Supprimer un produit par ID
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/supp.PNG)
+
+  - Quitter
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Quit.PNG)
+   
     
 
 
