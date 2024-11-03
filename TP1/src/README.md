@@ -1,6 +1,8 @@
-# Tps_POO_SDIA1
-This repository contains a series of Java exercises designed for the Master’s degree program in Artificial Intelligence and Distributed Systems, specifically for the first semester. The exercises adhere to Java Standard practices and cover fundamental concepts essential for building a solid foundation in Java programming.
-# Java Exercises Project
+## TP1:Tables and strings 
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_043038262.png?raw=true)
+
+This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
 
 ## Overview
 
@@ -9,17 +11,10 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [TP1](#tp1)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Exercises](#tp1)
 - [License](#license)
 
-## TP1:Tables and strings 
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_043038262.png?raw=true)
-
-This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
  
 ## Exercises
 
