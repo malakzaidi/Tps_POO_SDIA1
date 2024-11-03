@@ -22,6 +22,12 @@ This project is a collection of exercises designed to enhance understanding and 
    
    The link :
         [TP1](https://github.com/malakzaidi/Tps_POO_SDIA1/tree/main/TP1/src)
+1. TP2: OOP concepts
+   
+   This collection of exercises is designed to understand the concepts of oriented object programming such as encapsulation , heritage , abstraction , classe , objects
+   
+   The link :
+        [TP2](https://github.com/malakzaidi/Tps_POO_SDIA1/tree/main/src/Tp2)
 ## Installation
 1. Clone this repository:
    ```bash
