@@ -218,11 +218,11 @@ This project is a collection of exercises designed to enhance understanding and 
    ```bash
    git clone https://github.com/malakzaidi/Tps_POO_SDIA1.git
 2. Navigate to the project directory
-   cd Tps_POO_SDIA1
+     cd Tps_POO_SDIA1/TP1
 3. Open the project in IntelliJ IDEA or your preferred Java IDE.
 ## Usage
--Run the Main class to access the menu of exercises.
--Follow the prompts to select an exercise and provide any necessary input.
+- Run the Main class to access the menu of exercises.
+- Follow the prompts to select an exercise and provide any necessary input.
 ## Contributing
 -Contributions are welcome! If you have suggestions for improvements or additional exercises, feel free to create a pull request or open an issue.
 ## License
