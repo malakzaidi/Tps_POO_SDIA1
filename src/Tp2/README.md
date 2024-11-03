@@ -121,6 +121,7 @@ The **Command Management** exercise creates an application to handle orders, cus
    
 4. **LigneCommande**:
    - **Attributes**: `quantite`, `commande`, `ordinateur`
+     
         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/lignecommande.PNG)
          
 5. **Client**:
