@@ -181,6 +181,24 @@ The **Product Management System** manipulates a collection of `Produit` objects 
        
 ### Usage in Main
 The `Application` class provides an interactive menu allowing users to manage products with options for displaying, adding, finding, and deleting products.
+### Exécution
+   - Ajouter un nouveau produit dans la liste
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app3.PNG)
+
+   - Afficher la liste des produits
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app1.PNG)
+
+   - Rechercher des produits par mot clé
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
+
+   - Récupérer et afficher un produit par ID
+   ![image_alt]()
+
+   - Supprimer un produit par ID
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
+    
+
+
 
 ---
 
