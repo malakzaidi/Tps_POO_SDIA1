@@ -2,16 +2,15 @@
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
 
-This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
+This collection of exercises is designed to get familiar with exceptions in Java , it contains 3 exercices
 
 ## Overview
-
-This project is a collection of exercises designed to enhance understanding and practical skills in Java programming. Each exercise addresses a specific concept or problem, providing a hands-on approach to learning Java. The exercises cover various topics, including data structures, algorithms, object-oriented programming, and more.
+This project (TP3) is dedicated to understanding and implementing exception handling in Java. Exception handling is a crucial concept in programming that allows developers to manage errors gracefully, making applications more robust and reliable. In this TP, you will explore various scenarios where custom exceptions are used, how to throw exceptions under specific conditions, and how to catch and handle them effectively.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Exercises](#tp1)
+- [Exercises](#exercises)
 - [License](#license)
 
 
