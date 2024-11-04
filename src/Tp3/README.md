@@ -80,8 +80,16 @@ This project (TP3) is dedicated to understanding and implementing exception hand
       The try-catch block catches the exception and prints the stack trace for debugging.
  
 3. **Exercise 3: NoteInvalideException**
-
+   
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115345062.png)
+   
+    The project consists of the following classes:
+    NoteInvalideException:
+    -This class extends the built-in Exception class.
+    -It is used to signal that an invalid grade has been provided.
+   
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115715861.png)
+    
   
 ## Installation
 1. Clone this repository:
