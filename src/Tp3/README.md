@@ -24,7 +24,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
 1. **Exercise 1: TropViteException**
    
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_110140249.png)
    
    - Purpose: 
   
