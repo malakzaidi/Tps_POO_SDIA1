@@ -59,6 +59,8 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     1. `RacineCarreeException` Class
     The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
 
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_114301392.png)
+
     3. `Calculateur` Class
     The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
     
