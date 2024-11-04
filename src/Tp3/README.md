@@ -9,59 +9,41 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Exercises](#exercises)
-- [License](#license)
+1. [Overview](#overview)
+2. [Exercise 1: TropViteException](#exercise-1-Trop_vite_exception)
+3. [Exercise 2: RacineCarreeException](#exercise-2-racine_carree_exceeption)
+4. [Exercise 3: NoteInvalideExcepion](#exercise-3-note_invalide_exception)
+7. [Installation](#installation)
+8. [Usage](#usage)
+9. [License](#license)
+
 
 
  
 ## Exercises
 
-1. **Exercise 1: Managing Student Grades**
+1. **Exercise 1: TropViteException**
    
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
    
-   - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
-   - Key Methods:
-     - `trierNotes()`: Sorts the list of grades.
-     - `moyenne()`: Calculates the average grade.
-     - `noteminimale()`: Finds the minimum grade.
-     - `notemaximale()`: Finds the maximum grade.
-     - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
+   - Purpose: 
+  
+  In this exercise, you create a custom exception named TropViteException, designed to handle scenarios where a speed limit is exceeded. This exercise introduces you to creating custom exceptions, setting custom 
+  messages, and throwing exceptions based on specific conditions.
+  
    - Code:
        
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_122132950.png?raw=true)
 
-   - Explanation 
-    - Imports:
-      - `java.util.Arrays`: Provides utility functions for working with arrays, specifically sort() to sort grades in ascending order.
-      - `java.util.Scanner`: Allows capturing user input for student grades.
-    - Attributes:
-      - `notes`: A double array to store each student's grade.
-    - Constructor:
-   Initializes the notes array with user-specified grades, using a loop to request each grade.
-   The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
-   - Methods:
-      -  `trierNotes()`: Sorts the notes array in ascending order.
-      -  `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
-      -  `noteminimale()`: Returns the lowest grade, assuming the array is sorted.
-      -  `notemaximale()`: Returns the highest grade, assuming the array is sorted.
-      -  `compterEtudiants(double noteSaisie)`: Counts how many students received a specific grade by looping through the array and incrementing a counter each time the grade matches noteSaisie.
-     This Java code defines a class `Exercice1` that handles various operations on a set of student grades. Here's a breakdown of each part:
-     1. **Attributes and Initialization**:
-       The `notes` attribute is an array to store student grades. The constructor `Exercice1` takes the number of students (`numEtudiants`) as a parameter and initializes the `notes` array to that size. It then 
-       prompts the user to enter a grade for each student, storing each entry in the array. The `Scanner` used for input is closed after all entries to free resources.
-     2. **Sorting Grades**:
-        The `trierNotes` method sorts the `notes` array in ascending order using `Arrays.sort()`. This allows easier access to the minimum and maximum values.
-     3. **Calculating the Average Grade**:
-        The `moyenne` method calculates the average grade by summing all values in `notes` and dividing by the number of entries. It then returns this average.
-     4. **Finding the Minimum and Maximum Grades**:
-        - `noteminimale`: Returns the first element in the `notes` array, which is the smallest value if the array is sorted.
-        - `notemaximale`: Returns the last element in the `notes` array, which is the largest value if the array is sorted.
-     5. **Counting Students with a Specific Grade**:
-        The `compterEtudiants` method counts how many students have a particular grade (`noteSaisie`). It loops through the `notes` array, increments a counter each time a grade matches `noteSaisie`, and then 
-        returns this count.
-        In summary, `Exercice1` allows users to enter and manage student grades, providing functionality to sort, average, find min/max grades, and count occurrences of a specific grade.
+   - Explanation :
+     
+     1. **Class**:
+         `TropViteException ` extends the Exception class, making it a checked exception.
+     2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
+     3. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
+     4. **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
+        If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
+    
         
 2. **Exercise 2: Verb Conjugation**
 
