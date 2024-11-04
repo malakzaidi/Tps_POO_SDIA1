@@ -51,29 +51,40 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     
     
         
-2. **Exercise 2: Verb Conjugation**
+2. **Exercise 2: RacineCarreeException**
 
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex2.PNG?raw=true)
+   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/RacineCarree.PNG)
    
-   - Description: A program to conjugate verbs from the first group in French.
-   - Key Method:
-      - `conjuguer()`: Conjugates the given verb according to French grammar rules.
-   - Code:
-     
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo2.PNG?raw=true)
+   - Description: A program that manages the RacineCarre Exception
+    1. `RacineCarreeException` Class
+    The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
 
-   - Explanation 
-     - Attributes:
-       - `verbe`: A private String attribute that stores the verb to be conjugated.
-     - Constructor:
-       - `Exercice2(String verbe)`: Initializes the verbe attribute with the verb provided by the user.
-     - Methods:
-       - `estVerbePremierGroupe()`: Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
-       Returns true if the verb is valid, allowing conjugation in the first group.
-       - `conjuguer()`: Conjugates the verb in the present tense.
-    It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
-   If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
-   If the verb is invalid, it displays a message indicating the verb is not first-group.         
+    3. `Calculateur` Class
+    The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
+    
+Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
+
+1. RacineCarreeException Class
+The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
+
+
+2. Calculateur Class
+The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
+
+
+- Explanation
+ RacineCarreeException Class: This custom exception class is thrown when a negative number is passed to the testRacineCarree() method.
+
+Constructor takes an integer and constructs a message like: "C'est une exception de type RacineCarreeException. Nombre négatif : -5".
+Calculateur Class:
+
+The testRacineCarree() method checks if the input number is negative.
+If it’s negative, it throws a RacineCarreeException.
+If it’s positive, it calculates and prints the square root using Math.sqrt().
+main Method:
+
+Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
+The try-catch block catches the exception and prints the stack trace for debugging.
  
 3. **Exercise 3: String Operations**
 
