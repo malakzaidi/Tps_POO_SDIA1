@@ -32,17 +32,17 @@ This project (TP3) is dedicated to understanding and implementing exception hand
   messages, and throwing exceptions based on specific conditions.
   
    - Code:
-       
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_122132950.png?raw=true)
-
-   - Explanation :
-     
      1. **Class**:
          `TropViteException ` extends the Exception class, making it a checked exception.
-     2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
-     3. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
-     4. **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
-        If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
+         2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
+         3. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
+         4. **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
+         If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
+     
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
+     
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
+    
     
         
 2. **Exercise 2: Verb Conjugation**
