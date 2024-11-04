@@ -64,6 +64,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
     3. `Calculateur` Class
     The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
+
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculator.PNG)
      
     Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
