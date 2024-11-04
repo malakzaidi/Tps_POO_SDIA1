@@ -84,11 +84,18 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115345062.png)
    
     The project consists of the following classes:
-    NoteInvalideException:
+    `NoteInvalideException`:
     -This class extends the built-in Exception class.
     -It is used to signal that an invalid grade has been provided.
    
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115715861.png)
+   
+    `Evaluateur`:
+    This class does not contain attributes.
+    It includes a method verifierNote(int note) that checks whether a grade is within the valid range (0 to 20).
+    If the grade is invalid, it throws a NoteInvalideException.
+   
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/Evaluateur.PNG)
     
   
 ## Installation
@@ -96,7 +103,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
    ```bash
    git clone https://github.com/malakzaidi/Tps_POO_SDIA1.git
 2. Navigate to the project directory
-     cd Tps_POO_SDIA1/TP1
+     cd Tps_POO_SDIA1/TP
 3. Open the project in IntelliJ IDEA or your preferred Java IDE.
 ## Usage
 - Run the Main class to access the menu of exercises.
