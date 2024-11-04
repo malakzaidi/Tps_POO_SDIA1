@@ -56,6 +56,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/RacineCarree.PNG)
    
    - Description: A program that manages the RacineCarre Exception
+     
     1. `RacineCarreeException` Class
     The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
 
@@ -63,30 +64,20 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
     3. `Calculateur` Class
     The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
-    
-Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculator.PNG)
+     
+    Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
 
-1. RacineCarreeException Class
-The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
-
-
-2. Calculateur Class
-The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
-
-
-- Explanation
- RacineCarreeException Class: This custom exception class is thrown when a negative number is passed to the testRacineCarree() method.
-
-Constructor takes an integer and constructs a message like: "C'est une exception de type RacineCarreeException. Nombre négatif : -5".
-Calculateur Class:
-
-The testRacineCarree() method checks if the input number is negative.
-If it’s negative, it throws a RacineCarreeException.
-If it’s positive, it calculates and prints the square root using Math.sqrt().
-main Method:
-
-Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
-The try-catch block catches the exception and prints the stack trace for debugging.
+      - Explanation
+      `RacineCarreeException` Class: This custom exception class is thrown when a negative number is passed to the testRacineCarree() method.
+      The constructor takes an integer and constructs a message like: "C'est une exception de type RacineCarreeException. Nombre négatif : -5".
+      Calculateur Class:
+      The `testRacineCarree()` method checks if the input number is negative.
+      If it’s negative, it throws a RacineCarreeException.
+      If it’s positive, it calculates and prints the square root using Math.sqrt().
+      `main` Method:
+      Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
+      The try-catch block catches the exception and prints the stack trace for debugging.
  
 3. **Exercise 3: String Operations**
 
