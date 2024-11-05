@@ -115,7 +115,11 @@ This project (TP3) is dedicated to understanding and implementing exception hand
      It creates an instance of the class Evaluateur to apply the method verifierNote that verifies the note with two different
      values , one that respects the criteras and the other that displays the exception using the block try , catch to handle it.
      It prints a message with the stack trace .
-    
+   
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainex3.PNG)
+
+   - Execution ;
+     When we execute , the exception is thrown by the invalid mark -5 , it is displayed with the exception message and the stack trace .
   
 ## Installation
 1. Clone this repository:
