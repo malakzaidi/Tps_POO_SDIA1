@@ -11,10 +11,12 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Exercise1](#exercise1)
-- [Exercise2](#exercise2)
-- [Exercise3](#exercise3)
-- [Main](#Main)
+- [Exercises](#exercises)
+  - [Exercise 1: Managing Student Grades](#exercise-1-managing-student-grades)
+  - [Exercise 2: Verb Conjugation](#exercise-2-verb-conjugation)
+  - [Exercise 3: String Operations](#exercise-3-string-operations)
+  - [Exercise 4: Letter Occurrences](#exercise-4-letter-occurrences)
+- [Main](#main)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -223,6 +225,7 @@ This project is a collection of exercises designed to enhance understanding and 
    ```bash
    git clone https://github.com/malakzaidi/Tps_POO_SDIA1.git
 2. Navigate to the project directory
+   ```bash
      cd Tps_POO_SDIA1/TP1
 3. Open the project in IntelliJ IDEA or your preferred Java IDE.
 ## Usage
