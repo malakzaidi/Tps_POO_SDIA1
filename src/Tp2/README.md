@@ -66,7 +66,8 @@ The `Main` class demonstrates:
 - Creating an `Adherent` and an `Auteur`.
 - Adding a `Livre` written by the author.
 - Displaying information about the library member and the book.
- [Main Application](#main-application)
+- Check the main application :
+  [Main Application](#main-application)
 ---
 
 ## Exercise 2: Salary Management
@@ -95,7 +96,8 @@ The **Salary Management** exercise builds a payroll system for managing the sala
 The `Main` class demonstrates:
 - Creating an `Ingenieur` and a `Manager`.
 - Calculating and displaying their salaries with respective increases.
-
+- Check the main application :
+  [Main Application](#main-application)
 ---
 
 ## Exercise 3: Command Management
@@ -139,7 +141,8 @@ The `Main` class demonstrates:
 - Creating a `Categorie` and adding `Ordinateur` objects to it.
 - Creating a `Client` and a `Commande` associated with this client.
 - Adding `LigneCommande` entries to the `Commande` and displaying details.
-
+- Check the main application :
+  [Main Application](#main-application)
 ---
 
 ## Exercise 4: Product Management System
