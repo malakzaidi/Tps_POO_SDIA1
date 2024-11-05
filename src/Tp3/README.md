@@ -76,20 +76,19 @@ This project (TP3) is dedicated to understanding and implementing exception hand
      
     Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
 
-      - Explanation
-      `RacineCarreeException` Class: This custom exception class is thrown when a negative number is passed to the testRacineCarree() method.
-      The constructor takes an integer and constructs a message like: "C'est une exception de type RacineCarreeException. Nombre négatif : -5".
-      Calculateur Class:
-      The `testRacineCarree()` method checks if the input number is negative.
-      If it’s negative, it throws a RacineCarreeException.
-      If it’s positive, it calculates and prints the square root using Math.sqrt().
-      4. `main` Method:
-      Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
-      The try-catch block catches the exception and prints the stack trace for debugging.
+     - Explanation
+     `RacineCarreeException` Class: This custom exception class is thrown when a negative number is passed to the testRacineCarree() method.
+     The constructor takes an integer and constructs a message like: "C'est une exception de type RacineCarreeException. Nombre négatif : -5".
+     The `testRacineCarree()` method checks if the input number is negative.
+     If it’s negative, it throws a RacineCarreeException.
+     If it’s positive, it calculates and prints the square root using Math.sqrt().
+     4. `main` Method:
+     Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
+     The try-catch block catches the exception and prints the stack trace for debugging.
 
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainex2.PNG)
    
-      - Execution
+      - Execution :
         When we execute the main application , the number -5 displayed the exception thrown by the method testRacineCarree and it printed the stack trace.
         
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec2.PNG)
@@ -110,7 +109,12 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     It includes a method verifierNote(int note) that checks whether a grade is within the valid range (0 to 20).
     If the grade is invalid, it throws a NoteInvalideException.
    
-    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/Evaluateur.PNG)
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/evaaa.PNG)
+
+    `Main`:
+     It creates an instance of the class Evaluateur to apply the method verifierNote that verifies the note with two different
+     values , one that respects the criteras and the other that displays the exception using the block try , catch to handle it.
+     It prints a message with the stack trace .
     
   
 ## Installation
