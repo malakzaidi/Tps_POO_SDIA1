@@ -127,7 +127,7 @@ This project is a collection of exercises designed to enhance understanding and 
     
  
 ### Exercise 4: Letter Occurrences
-    - Description: A program to count occurrences of each letter in a given text.
+   - Description: A program to count occurrences of each letter in a given text.
     - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
 
@@ -139,7 +139,8 @@ This project is a collection of exercises designed to enhance understanding and 
      1. **Attributes**: 
        The `occurences` array holds the count of each letter (from 'a' to 'z'). The total count of letters is stored in `totalLettre`.
      2. **Input Handling**: 
-        The `saisirTexte()` method prompts the user for input, storing it in the `texte` attribute after converting it to lowercase and removing all non-letter characters. This ensures only valid letters are counted.
+        The `saisirTexte()` method prompts the user for input, storing it in the `texte` attribute after converting it to lowercase and removing all non-letter characters. This ensures only valid letters are 
+        counted.
      3. **Counting Logic**: 
         In `compterOccurrences()`, the code loops through the cleaned text. For each character, it checks if it’s between 'a' and 'z'. If so, it increments the corresponding index in `occurences`. Finally, it prints each letter along with its count, based on the values stored in the `occurences` array.
      Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
@@ -149,10 +150,41 @@ This project is a collection of exercises designed to enhance understanding and 
    - Usage in main, check it:
      [Main](#main)
     
- 
 ## Main
 
 The `Main` class is designed as the entry point of a Java program that serves as a menu-driven interface for selecting different exercises.
+ - Description :
+        The Main class is designed as the entry point of a Java program that serves as a menu-driven interface for selecting different exercises. Each exercise focuses on a specific topic, like student grades 
+        management, verb conjugation, string operations, and letter frequency analysis. This class uses a do-while loop to repeatedly display a menu of options until the user chooses to exit the program. 
+        Depending on the user’s choice, it creates instances of different classes (Exercice1, Exercice2, Exercice3, and Exercice4) and calls their methods to perform the respective operations.
+      - Code:
+         Explanation:
+         1. **Scanner and Menu Display**:  
+         The program starts by creating a Scanner object to capture user input and an integer choix to hold the user’s choice. A do-while loop then displays the menu options, each associated with a specific 
+         exercise, until the user selects the option to quit by entering 0.
+         2. **User Choices and Exercise Execution**:
+           - **Case 1 (Student Grades Management)**:  
+         If the user selects 1, the program prompts them to enter the number of students, initializes an Exercice1 instance with that number, and:
+             - Sorts and displays student grades.
+             - Displays the average, minimum, and maximum grades.
+             - Asks the user to enter a specific grade and displays the count of students who achieved that grade.
+           - **Case 2 (Verb Conjugation)**:  
+              When 2 is chosen, the program prompts the user to enter a first-group French verb, initializes an Exercice2 instance with this verb, and then conjugates it in the present tense if it’s valid.
+           - **Case 3 (String Operations)**:  
+              With option 3, an Exercice3 instance is created. The menu method of Exercice3 is called, which displays its own submenu for various string operations like entering a string, displaying it, 
+              reversing it, and counting words.
+           - **Case 4 (Letter Occurrence Counting)**:  
+              If the user selects 4, an instance of Exercice4 is created. The user is asked to input a line of text, and the program calculates and displays the frequency of each letter within the entered 
+              text.
+           - **Case 0 (Exit)**:  
+              Selecting 0 exits the loop, ending the program, and a closing message is displayed.
+           - **Default Case**:  
+              If the user enters an invalid option, an error message is shown, and the menu is redisplayed.
+          3. **Loop Continuation and Resource Management**:  
+              The do-while loop continues running until choix is 0. Finally, the scanner is closed to release resources once the user exits
+        
+           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_135703106.png?raw=true)
+        
 ### Execution
 - **Case 1 (Student Grades Management)**:
   
