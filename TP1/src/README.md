@@ -1,8 +1,8 @@
 ## TP1:Tables and strings 
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_043038262.png?raw=true)
-
 This collection of exercises is designed to get familiar with Java and be able to manipulate tables and strings, it contains 4 exercices
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_043038262.png?raw=true)
 
 ## Overview
 
@@ -11,7 +11,13 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Exercises](#tp1)
+- [Exercise1](#exercise1)
+- [Exercise2](#exercise2)
+- [Exercise3](#exercise3)
+- [Main](#Main)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -19,10 +25,10 @@ This project is a collection of exercises designed to enhance understanding and 
 ## Exercises
 
 1. **Exercise 1: Managing Student Grades**
-   
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
-   
    - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
+     
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
+    
    - Key Methods:
      - `trierNotes()`: Sorts the list of grades.
      - `moyenne()`: Calculates the average grade.
@@ -30,18 +36,15 @@ This project is a collection of exercises designed to enhance understanding and 
      - `notemaximale()`: Finds the maximum grade.
      - `compterEtudiants(double note)`: Counts the number of students with a specific grade.
    - Code:
-       
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_122132950.png?raw=true)
-
-   - Explanation 
+   -  - Explanation 
     - Imports:
       - `java.util.Arrays`: Provides utility functions for working with arrays, specifically sort() to sort grades in ascending order.
       - `java.util.Scanner`: Allows capturing user input for student grades.
     - Attributes:
       - `notes`: A double array to store each student's grade.
     - Constructor:
-   Initializes the notes array with user-specified grades, using a loop to request each grade.
-   The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
+     Initializes the notes array with user-specified grades, using a loop to request each grade.
+     The Scanner instance is used for input and closed after the input is complete to avoid resource leaks.
    - Methods:
       -  `trierNotes()`: Sorts the notes array in ascending order.
       -  `moyenne()`: Calculates and returns the average grade by summing all grades and dividing by the number of grades.
@@ -63,19 +66,22 @@ This project is a collection of exercises designed to enhance understanding and 
         The `compterEtudiants` method counts how many students have a particular grade (`noteSaisie`). It loops through the `notes` array, increments a counter each time a grade matches `noteSaisie`, and then 
         returns this count.
         In summary, `Exercice1` allows users to enter and manage student grades, providing functionality to sort, average, find min/max grades, and count occurrences of a specific grade.
+       
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_122132950.png?raw=true)
+
+     - Usage in main , check it :
+       [Main](#Main)
+  
         
 2. **Exercise 2: Verb Conjugation**
-
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex2.PNG?raw=true)
-   
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
-   - Code:
-     
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo2.PNG?raw=true)
 
-   - Explanation 
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex2.PNG?raw=true)
+   
+   - Code:
+     - Explanation 
      - Attributes:
        - `verbe`: A private String attribute that stores the verb to be conjugated.
      - Constructor:
@@ -84,23 +90,25 @@ This project is a collection of exercises designed to enhance understanding and 
        - `estVerbePremierGroupe()`: Checks if the verb belongs to the first group (i.e., if it ends with "er" and has more than two characters).
        Returns true if the verb is valid, allowing conjugation in the first group.
        - `conjuguer()`: Conjugates the verb in the present tense.
-    It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
-   If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
-   If the verb is invalid, it displays a message indicating the verb is not first-group.         
+       It first verifies if the verb belongs to the first group by calling estVerbePremierGroupe().
+       If valid, it extracts the root by removing "er" from the verb and adds the appropriate endings for each subject pronoun ("e," "es," "e," etc.).
+       If the verb is invalid, it displays a message indicating the verb is not first-group.  
+     
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo2.PNG?raw=true)
+     
+     - Usage in main , check it :
+       [Main](#Main)
+          
  
 3. **Exercise 3: String Operations**
-
-    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex3.PNG?raw=true)
-   
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
-    - Code :
-   
-    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo3.PNG?raw=true)
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex3.PNG?raw=true)
 
-    - Explanation 
+    - Code :
+       - Explanation 
       - Attributes:
         - `chaine`: Stores the string entered by the user.
       - Methods:
@@ -109,32 +117,24 @@ This project is a collection of exercises designed to enhance understanding and 
         - `inverser()`: Reverses the stored string using StringBuilder and displays the reversed version.
         - `compterMots()`: Counts the words in the string. It trims any extra spaces and splits the string by spaces, then prints the word count.
         - `menu()`: Shows a menu for the user to perform various operations on the string. It uses a do-while loop to keep showing the menu until the user chooses to quit by entering 0.
-    Each option in the menu() corresponds to a method, allowing the user to input, view, reverse, or count words in the string as needed. This structure provides interactive control to manage the chaine string in 
-    multiple ways.
-    This Java class, `Exercice2`, is designed to conjugate verbs in the present tense that belong to the "first group" of French verbs (those ending in "er"). Here's a detailed explanation:
-       1. **Attributes and Initialization**:
-       The class has a private attribute, `verbe`, which stores the verb entered by the user. The constructor `Exercice2(String verbe)` takes this verb as a parameter and initializes it.
-       2. **Checking Verb Validity**:
-       The method `estVerbePremierGroupe` checks if the verb belongs to the first group by ensuring it ends with "er" and has a length greater than two. This helps verify that the verb can be conjugated according 
-       to the rules applied within this class.
-       3. **Conjugating the Verb**:
-        The `conjuguer` method conjugates the verb if it passes the first-group check in `estVerbePremierGroupe`. If the verb is valid, the method:
-        - Extracts the verb's root (by removing the last two characters, "er").
-        - Prints the conjugation for each subject pronoun (je, tu, il/elle, nous, vous, ils/elles) by adding the appropriate ending to the verb's root. 
-        If the verb is not in the first group, it outputs a message indicating that the verb does not belong to the expected category.
-        In summary, `Exercice2` allows users to input a verb, verify if it can be conjugated as a first-group verb, and display its present-tense conjugation if it is valid.
+      Each option in the menu() corresponds to a method, allowing the user to input, view, reverse, or count words in the string as needed. This structure provides interactive control
+      to manage the chaine string in multiple ways.
+   
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1exo3.PNG?raw=true)
+   
+     - Usage in main , check it :
+       [Main](#Main)
+    
  
 4. **Exercise 4: Letter Occurrences**
-
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131207489.png?raw=true)
-   
-   - Description: A program to count occurrences of each letter in a given text.
-   - Key Method:
+    - Description: A program to count occurrences of each letter in a given text.
+    - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
-   - Code :
 
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131827573.png?raw=true)
-   - Explanation :
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131207489.png?raw=true)
+   
+   - Code :
+      - Explanation :
      This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
      1. **Setting Up Attributes and Importing Scanner**:
        The program begins by importing `Scanner`, a utility for reading user input. It then defines a private attribute `texte`, which will store the user-inputted line of text.
@@ -148,17 +148,19 @@ This project is a collection of exercises designed to enhance understanding and 
      - Finally, it prints each letter and its count if the letter appears at least once in the text, converting the index back to the corresponding letter.
       In summary, this code takes user input, converts it to uppercase for uniformity, counts occurrences of each letter in the English alphabet, and then displays the results. Non-letter characters are ignored 
       in the counting process.
-
-   5. **TP1's Main**:
+   
+       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131827573.png?raw=true)
+       
+       - Usage in main , check it :
+       [Main](#Main)
+     
+   5. **Main**:
       - Description :
         The `Main` class is designed as the entry point of a Java program that serves as a menu-driven interface for selecting different exercises. Each exercise focuses on a specific topic, like student grades 
         management, verb conjugation, string operations, and letter frequency analysis. This class uses a `do-while` loop to repeatedly display a menu of options until the user chooses to exit the program. 
         Depending on the user’s choice, it creates instances of different classes (`Exercice1`, `Exercice2`, `Exercice3`, and `Exercice4`) and calls their methods to perform the respective operations.
       - Code:
-        
-        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_135703106.png?raw=true)
-      
-      - Explanation:
+         Explanation:
          1. **Scanner and Menu Display**:  
          The program starts by creating a `Scanner` object to capture user input and an integer `choix` to hold the user’s choice. A `do-while` loop then displays the menu options, each associated with a specific 
          exercise, until the user selects the option to quit by entering `0`.
@@ -182,6 +184,9 @@ This project is a collection of exercises designed to enhance understanding and 
               If the user enters an invalid option, an error message is shown, and the menu is redisplayed.
           3. **Loop Continuation and Resource Management**:  
               The `do-while` loop continues running until `choix` is `0`. Finally, the `scanner` is closed to release resources once the user exits
+        
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_135703106.png?raw=true)
+      
        ### Execution
         - **Case 1 (Student Grades Management)**:
      
