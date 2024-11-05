@@ -243,14 +243,17 @@ The `Main` class brings together the first three exercises with a menu for easy 
 
 **Case 1 (Exercise1)**:
  -it creates and displays `Adherent`, `Auteur`, and `Livre`.
+ 
 ![image_alt](https://github.com/user-attachments/assets/f411eb79-eb11-4ac4-a581-e8ab5fa8aeae)
 
 **Case 2 (Exercise2)**:
  -it creates and displays `Ingenieur` and `Manager`.
+ 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main2.PNG)
 
 **Case 3 (Exercise3)**:
  -it creates `Client`, `Commande`, `Categorie`, and associated `LigneCommande` entries.
+ 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main3.PNG)
 
 ## Installation
