@@ -34,18 +34,19 @@ This project (TP3) is dedicated to understanding and implementing exception hand
      
      1. **Class**:
          `TropViteException ` extends the Exception class, making it a checked exception.
-         2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
+     2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
          
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
         
-        3.`Vehicule `is a car class where the usage of the exeception is as the following : 
-        4. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
+     3.`Vehicule `is a car class where the usage of the exeception is as the following :
+        
+     4. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
 
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/vehicule.PNG)
 
-        5. **Main Application** :
-           **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
-          If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
+     5. **Main Application** :
+        In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
+        If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
 
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainnn.PNG)
      
