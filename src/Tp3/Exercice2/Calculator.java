@@ -13,15 +13,5 @@ public class Calculateur {
             System.out.println("La racine carrée de " + nombre + " est " + Math.sqrt(nombre));
         }
     }
-
-    // Main method
-    public static void main(String[] args) {
-        Calculateur calculateur = new Calculateur();
-        try {
-            calculateur.testRacineCarree(-5); // Will throw RacineCarreeException
-            calculateur.testRacineCarree(25); // Will display the square root
-        } catch (RacineCarreeException e) {
-            e.printStackTrace(); // Print the exception stack trace
-        }
-    }
+    
 }
