@@ -119,7 +119,9 @@ This project (TP3) is dedicated to understanding and implementing exception hand
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainex3.PNG)
 
    - Execution ;
-     When we execute , the exception is thrown by the invalid mark -5 , it is displayed with the exception message and the stack trace .
+     When we execute , the exception is thrown by the invalid mark 25 based on the code , it is displayed with the exception message and the stack trace .
+   
+
   
 ## Installation
 1. Clone this repository:
