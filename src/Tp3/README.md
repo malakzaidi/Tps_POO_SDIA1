@@ -1,8 +1,10 @@
 ## TP3:Handling Exceptions 
 
+This collection of exercises is designed to get familiar with exceptions in Java , it contains 3 exercices:
+
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
 
-This collection of exercises is designed to get familiar with exceptions in Java , it contains 3 exercices
+
 
 ## Overview
 This project (TP3) is dedicated to understanding and implementing exception handling in Java. Exception handling is a crucial concept in programming that allows developers to manage errors gracefully, making applications more robust and reliable. In this TP, you will explore various scenarios where custom exceptions are used, how to throw exceptions under specific conditions, and how to catch and handle them effectively.
@@ -24,11 +26,11 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
 1. **Exercise 1: TropViteException**
    
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_110140249.png)
-   
    - Purpose: 
      In this exercise, you create a custom exception named TropViteException, designed to handle scenarios where a speed limit is exceeded. This exercise introduces you to creating custom exceptions, setting 
      custom messages, and throwing exceptions based on specific conditions.
+     
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_110140249.png)
   
    - Code:
      
@@ -59,18 +61,18 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     
         
 2. **Exercise 2: RacineCarreeException**
-
-   ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/RacineCarree.PNG)
    
-   - Description: A program that manages the RacineCarre Exception
-     
+    - Description: A program that manages the RacineCarre Exception
+
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/RacineCarree.PNG)
+   
     1. `RacineCarreeException` Class
-    The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
+      The RacineCarreeException class inherits from Exception and has a constructor that takes an integer and passes a custom error message to the superclass.
 
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_114301392.png)
 
     3. `Calculateur` Class
-    The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
+      The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
 
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculateur.PNG)
      
@@ -94,6 +96,8 @@ This project (TP3) is dedicated to understanding and implementing exception hand
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec2.PNG)
  
 4. **Exercise 3: NoteInvalideException**
+
+    Description: This excercise manages the NoteInvalideException
    
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115345062.png)
    
@@ -120,7 +124,8 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
    - Execution ;
      When we execute , the exception is thrown by the invalid mark 25 based on the code , it is displayed with the exception message and the stack trace .
-   
+     
+     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec3.PNG)
 
   
 ## Installation
