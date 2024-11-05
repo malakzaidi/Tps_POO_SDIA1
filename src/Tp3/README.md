@@ -88,8 +88,13 @@ This project (TP3) is dedicated to understanding and implementing exception hand
       The try-catch block catches the exception and prints the stack trace for debugging.
 
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainex2.PNG)
+   
+      - Execution
+        When we execute the main application , the number -5 displayed the exception thrown by the method testRacineCarree and it printed the stack trace.
+        
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec2.PNG)
  
-3. **Exercise 3: NoteInvalideException**
+4. **Exercise 3: NoteInvalideException**
    
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_115345062.png)
    
