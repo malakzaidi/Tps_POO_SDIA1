@@ -66,7 +66,7 @@ The `Main` class demonstrates:
 - Creating an `Adherent` and an `Auteur`.
 - Adding a `Livre` written by the author.
 - Displaying information about the library member and the book.
-
+ [Main Application](#main-application)
 ---
 
 ## Exercise 2: Salary Management
