@@ -104,7 +104,8 @@ This collection of exercises is designed to get familiar with exceptions in Java
    ```bash
    git clone https://github.com/malakzaidi/Tps_POO_SDIA1.git
 2. Navigate to the project directory
-     cd Tps_POO_SDIA1/TP
+   ```bash
+   cd Tps_POO_SDIA1/TP3
 3. Open the project in IntelliJ IDEA or your preferred Java IDE.
 ## Usage
 - Run the Main class to access the menu of exercises.
