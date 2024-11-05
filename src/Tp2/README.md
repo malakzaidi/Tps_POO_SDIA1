@@ -80,16 +80,19 @@ The **Salary Management** exercise builds a payroll system for managing the sala
 1. **Employe** (abstract class):
    - **Attributes**: `nom`, `prenom`, `email`, `telephone`, `salaire`
    - **Methods**: `calculerSalaire()` (abstract) – Calculates an employee's salary.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/employe.PNG)
    
 2. **Ingenieur** (inherits from `Employe`):
    - **Attributes**: `specialite` (specialty field)
    - **Methods**: `calculerSalaire()` – Calculates salary with a 15% increase.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/engineer.PNG)
      
 3. **Manager** (inherits from `Employe`):
    - **Attributes**: `service` (department name)
    - **Methods**: `calculerSalaire()` – Calculates salary with a 20% increase.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/manager.PNG)
      
 ### Usage in Main
@@ -110,6 +113,7 @@ The **Command Management** exercise creates an application to handle orders, cus
 1. **Ordinateur**:
    - **Attributes**: `nom`, `marque`, `prix`, `description`, `nombreStock`
    - **Methods**: `calculerPrix(int quantite)` – Calculates the total price for a given quantity.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Ordinateur.PNG)
    
 2. **Categorie**:
@@ -118,10 +122,12 @@ The **Command Management** exercise creates an application to handle orders, cus
      - `ajouterOrdinateur()` – Adds a computer to the list, ensuring no duplicates.
      - `supprimerOrdinateur()` – Removes a computer from the list.
      - `rechercherParPrix(double prix)` – Finds computers within a specified price range.
+       
         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Categorie.PNG)
    
 3. **Commande**:
    - **Attributes**: `reference`, `client`, `date`, `etat`
+     
         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Commande.PNG)
    
 4. **LigneCommande**:
@@ -134,6 +140,7 @@ The **Command Management** exercise creates an application to handle orders, cus
    - **Methods**:
      - `ajouterCommande()` – Adds a command to the client’s list.
      - `supprimerCommande()` – Removes a command from the list.
+       
        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/client.PNG)
        
 ### Usage in Main
@@ -155,6 +162,7 @@ The **Product Management System** manipulates a collection of `Produit` objects 
 1. **Produit**:
    - **Attributes**: `id`, `nom`, `marque`, `prix`, `description`, `nombreStock`
    - **Methods**: Getters and setters for each attribute.
+     
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/produit.PNG)
 
 2. **IMetierProduit** (interface):
@@ -170,6 +178,7 @@ The **Product Management System** manipulates a collection of `Produit` objects 
    - **Attributes**: `produits` (list of `Produit` objects)
    - **Methods**:
      - Implements all methods in `IMetierProduit` for adding, finding, and deleting products.
+       
        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/MetierImpl.PNG)
 
 4. **Application**:
