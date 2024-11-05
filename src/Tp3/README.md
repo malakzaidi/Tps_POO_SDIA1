@@ -27,27 +27,34 @@ This project (TP3) is dedicated to understanding and implementing exception hand
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_110140249.png)
    
    - Purpose: 
-  
-    In this exercise, you create a custom exception named TropViteException, designed to handle scenarios where a speed limit is exceeded. This exercise introduces you to creating custom exceptions, setting 
-    custom messages, and throwing exceptions based on specific conditions.
+     In this exercise, you create a custom exception named TropViteException, designed to handle scenarios where a speed limit is exceeded. This exercise introduces you to creating custom exceptions, setting 
+     custom messages, and throwing exceptions based on specific conditions.
   
    - Code:
      
      1. **Class**:
          `TropViteException ` extends the Exception class, making it a checked exception.
-         2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
-         3. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
-
+     2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
+         
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
+        
+     3. `Vehicule `is a car class where the usage of the exeception is as the following :
+        
+     4. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
 
-         4. **Class Vehicule** :
-          **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
-          If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/vehicule.PNG)
 
-          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exception.PNG)
+     5. **Main Application** :
+        In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
+        If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
 
-     - Execution :
-       
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainnn.PNG)
+     
+    - Execution :
+          When we execute the main application , since we applied the methode `testvitesse` that tests the speed while throwing the exception
+          if the speed is exceeded , so , as it was expected , since 120 is not allowed , the message was printed with the stack trace .
+  
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec1.PNG)
     
     
         
@@ -64,6 +71,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
     3. `Calculateur` Class
     The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
+
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculator.PNG)
      
     Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
