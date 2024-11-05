@@ -142,10 +142,11 @@ This project is a collection of exercises designed to enhance understanding and 
         The `saisirTexte()` method prompts the user for input, storing it in the `texte` attribute after converting it to lowercase and removing all non-letter characters. This ensures only valid letters are 
         counted.
      3. **Counting Logic**: 
-        In `compterOccurrences()`, the code loops through the cleaned text. For each character, it checks if it’s between 'a' and 'z'. If so, it increments the corresponding index in `occurences`. Finally, it prints each letter along with its count, based on the values stored in the `occurences` array.
-     Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
+        In `compterOccurrences()`, the code loops through the cleaned text. For each character, it checks if it’s between 'a' and 'z'. If so, it increments the corresponding index in `occurences`. Finally, it 
+        prints each letter along with its count, based on the values stored in the `occurences` array.
+        Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
     
-      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_140459682.png?raw=true)
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_140459682.png?raw=true)
    
    - Usage in main, check it:
      [Main](#main)
