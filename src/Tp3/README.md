@@ -86,6 +86,8 @@ This project (TP3) is dedicated to understanding and implementing exception hand
       4. `main` Method:
       Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
       The try-catch block catches the exception and prints the stack trace for debugging.
+
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainex2.PNG)
  
 3. **Exercise 3: NoteInvalideException**
    
