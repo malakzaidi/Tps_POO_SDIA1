@@ -40,11 +40,16 @@ This project (TP3) is dedicated to understanding and implementing exception hand
 
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
 
-         4. **Class Vehicule** :
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exception.PNG)
+
+         4. **Main Application** :
           **Exception Handling** : In the main method, the Vehicule class’s `testVitesse()` method is called with different speed values.
           If a speed exceeds 90, `TropViteException` is thrown, caught, and handled by displaying the message and stack trace.
 
-          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exception.PNG)
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainnn.PNG)
+        
+          
+            
 
      - Execution :
        
