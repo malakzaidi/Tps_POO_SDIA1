@@ -188,27 +188,27 @@ The **Product Management System** manipulates a collection of `Produit` objects 
 ### Usage in Main
 The `Application` class provides an interactive menu allowing users to manage products with options for displaying, adding, finding, and deleting products.
 ### Exécution
-   - Ajouter un nouveau produit dans la liste
+   - Adding a new product to the list
      
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app3.PNG)
 
-   - Afficher la liste des produits
+   - Displaying the list of products
      
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app1.PNG)
 
-   - Rechercher des produits par mot clé
+   - Researching a product by Id
      
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/app22.PNG)
 
-   - Récupérer et afficher un produit par ID
+   - Displaying a product by Id
      
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/id.PNG)
 
-   - Supprimer un produit par ID
+   - Deleting a product by Id
      
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/supp.PNG)
 
-  - Quitter
+  - Exit
     
     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/Quit.PNG)
    
@@ -230,18 +230,18 @@ The `Main` class brings together the first three exercises with a menu for easy 
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/mainn.PNG)
 
-### Exécution
+### Execution
 
 **Case 1 (Exercise1)**:
-
+ -it creates and displays `Adherent`, `Auteur`, and `Livre`.
 ![image_alt](https://github.com/user-attachments/assets/f411eb79-eb11-4ac4-a581-e8ab5fa8aeae)
 
 **Case 2 (Exercise2)**:
-
+ -it creates and displays `Ingenieur` and `Manager`.
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main2.PNG)
 
 **Case 3 (Exercise3)**:
-
+ -it creates `Client`, `Commande`, `Categorie`, and associated `LigneCommande` entries.
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp2/screenshots/main3.PNG)
 
 ## Installation
