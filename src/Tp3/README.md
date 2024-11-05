@@ -51,7 +51,10 @@ This project (TP3) is dedicated to understanding and implementing exception hand
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/mainnn.PNG)
      
     - Execution :
-       
+          When we execute the main application , since we applied the methode `testvitesse` that tests the speed while throwing the exception
+          if the speed is exceeded , so , as it was expected , since 120 is not allowed , the message was printed with the stack trace .
+  
+         ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exec1.PNG)
     
     
         
