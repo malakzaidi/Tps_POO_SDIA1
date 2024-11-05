@@ -38,7 +38,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
          
           ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
         
-     3.`Vehicule `is a car class where the usage of the exeception is as the following :
+     3. `Vehicule `is a car class where the usage of the exeception is as the following :
         
      4. **Usage**: The  `TropViteException ` is thrown in a method testVitesse() of the Vehicule class if the speed exceeds 90.
 
