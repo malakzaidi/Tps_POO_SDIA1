@@ -38,7 +38,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
          `TropViteException ` extends the Exception class, making it a checked exception.
      2. **Constructor**: Takes an integer parameter vitesse (speed) and passes a custom message to the superclass constructor, indicating the speed that caused the exception.
          
-          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_111012124.png)
+          ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/exception.PNG)
         
      3. `Vehicule `is a car class where the usage of the exeception is as the following :
         
