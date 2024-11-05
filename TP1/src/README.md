@@ -26,7 +26,7 @@ This project is a collection of exercises designed to enhance understanding and 
  
 ## Exercises
 
-1. **Exercise 1: Managing Student Grades**
+1.  **Exercise 1: Managing Student Grades**
    - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
      
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
