@@ -24,7 +24,7 @@ This project is a collection of exercises designed to enhance understanding and 
 
 ## Exercises
 
-1. **Exercise 1: Managing Student Grades**
+### Exercise 1: Managing Student Grades
    - Description: A program to manage and analyze student grades, including sorting, calculating averages, and counting occurrences of specific grades.
      
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_111933283.png?raw=true)
@@ -73,7 +73,7 @@ This project is a collection of exercises designed to enhance understanding and 
        [Main](#main)
   
         
-2. **Exercise 2: Verb Conjugation**
+### Exercise 2: Verb Conjugation
    - Description: A program to conjugate verbs from the first group in French.
    - Key Method:
       - `conjuguer()`: Conjugates the given verb according to French grammar rules.
@@ -100,14 +100,14 @@ This project is a collection of exercises designed to enhance understanding and 
        [Main](#main)
           
  
-3. **Exercise 3: String Operations**
+### Exercise 3: String Operations
    - Description: Various operations on strings, such as reversal, counting characters, and more.
    - Key Method:
      - `menu()`: Displays the options for string operations and processes user input.
 
      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/tp1ex3.PNG?raw=true)
 
-    - Code:
+   - Code:
        - Explanation 
       - Attributes:
         - `chaine`: Stores the string entered by the user.
@@ -126,7 +126,7 @@ This project is a collection of exercises designed to enhance understanding and 
        [Main](#main)
     
  
-4. **Exercise 4: Letter Occurrences**
+### Exercise 4: Letter Occurrences
     - Description: A program to count occurrences of each letter in a given text.
     - Key Method:
      - `compterOccurrences()`: Analyzes the input text and counts the frequency of each letter.
@@ -135,16 +135,14 @@ This project is a collection of exercises designed to enhance understanding and 
    
    - Code:
       - Explanation:
-     This Java code defines a class `Exercice4` that allows users to input a line of text and count the occurrences of each letter in that text. It’s organized into three main parts:
+     This Java code defines a class `Exercice4` that counts the occurrences of each letter in a given text. Here's a breakdown of the key parts:
      1. **Attributes**: 
        The `occurences` array holds the count of each letter (from 'a' to 'z'). The total count of letters is stored in `totalLettre`.
      2. **Input Handling**: 
-        The `saisirTexte()` method prompts the user for input, storing it in the `texte` attribute after converting it to lowercase and removing all non-letter characters. This ensures only valid letters are 
-        counted.
+        The `saisirTexte()` method prompts the user for input, storing it in the `texte` attribute after converting it to lowercase and removing all non-letter characters. This ensures only valid letters are counted.
      3. **Counting Logic**: 
-        In `compterOccurrences()`, the code loops through the cleaned text. For each character, it checks if it’s between 'a' and 'z'. If so, it increments the corresponding index in `occurences`. Finally, it 
-        prints each letter along with its count, based on the values stored in the `occurences` array.
-        Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
+        In `compterOccurrences()`, the code loops through the cleaned text. For each character, it checks if it’s between 'a' and 'z'. If so, it increments the corresponding index in `occurences`. Finally, it prints each letter along with its count, based on the values stored in the `occurences` array.
+     Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
     
       ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_140459682.png?raw=true)
    
@@ -165,7 +163,7 @@ The `Main` class is designed as the entry point of a Java program that serves as
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_142030792.png?raw=true)
   
 - **Case 3 (String Operations)**:
-- 
+  
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_142525505.png?raw=true)
   
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_142839389.png?raw=true)
@@ -177,12 +175,6 @@ The `Main` class is designed as the entry point of a Java program that serves as
 - **Case 0 (Exit)**:
   
    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_145014335.png?raw=true)
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/malakzaidi/Tps_POO_SDIA1
-
 
 ## Installation
 1. Clone this repository:
