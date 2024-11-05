@@ -72,7 +72,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
     3. `Calculateur` Class
     The Calculateur class has a method testRacineCarree() that throws a RacineCarreeException if the input integer is negative.
 
-     ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculator.PNG)
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/calculateur.PNG)
      
     Here’s how to implement the RacineCarreeException and Calculateur classes based on the instructions:
 
@@ -83,7 +83,7 @@ This project (TP3) is dedicated to understanding and implementing exception hand
       The `testRacineCarree()` method checks if the input number is negative.
       If it’s negative, it throws a RacineCarreeException.
       If it’s positive, it calculates and prints the square root using Math.sqrt().
-      `main` Method:
+      4. `main` Method:
       Creates an instance of Calculateur and calls testRacineCarree() with -5 (which will trigger the exception) and 25 (which will calculate the square root).
       The try-catch block catches the exception and prints the stack trace for debugging.
  
