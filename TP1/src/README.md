@@ -146,7 +146,7 @@ This project is a collection of exercises designed to enhance understanding and 
         prints each letter along with its count, based on the values stored in the `occurences` array.
         Overall, this class provides a straightforward way to analyze text for letter frequency, ensuring accurate results by filtering input and counting only valid characters.
     
-        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_140459682.png?raw=true)
+        ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/TP1/src/screenshots/image_2024-10-27_131827573.png)
    
    - Usage in main, check it:
      [Main](#main)
