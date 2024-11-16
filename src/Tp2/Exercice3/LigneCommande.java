@@ -1,6 +1,5 @@
 package Tp2.Exercice3;
 
-
 // Classe représentant une ligne de commande
 public class LigneCommande {
     private int quantite; // Quantité commandée

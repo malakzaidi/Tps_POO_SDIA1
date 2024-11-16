@@ -18,7 +18,6 @@ public class Produit {
         this.description = description;
         this.nombreStock = nombreStock;
     }
-
     // Getters et Setters
     public long getId() {
         return id;

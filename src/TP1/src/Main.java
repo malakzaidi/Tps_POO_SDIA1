@@ -1,10 +1,10 @@
-import java.util.Scanner; // Importer de la classe Scanner pour la saisie utilisateur
+package TP1.src;
 
+import java.util.Scanner; // Importer de la classe Scanner pour la saisie utilisateur
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Créer d'un objet Scanner pour lire les entrées de l'utilisateur
         int choix; // Déclarer une variable pour stocker le choix de l'utilisateur
-
         // Boucle do-while pour afficher le menu et exécuter les options jusqu'à ce que l'utilisateur choisisse de quitter
         do {
             // Afficher le menu principal
@@ -17,14 +17,12 @@ public class Main {
             System.out.print("Choix : "); // Demander à l'utilisateur de faire un choix
             choix = scanner.nextInt(); // Lire le choix de l'utilisateur
             scanner.nextLine(); // Consommer le saut de ligne après la saisie de l'entier
-
             // Switch pour traiter le choix de l'utilisateur
             switch (choix) {
                 case 1 -> { // Si l'utilisateur choisit l'exercice 1
                     System.out.print("Entrez le nombre d'étudiants : "); // Demander le nombre d'étudiants
                     int numEtudiants = scanner.nextInt(); // Lire le nombre d'étudiants
                     Exercice1 exercice1 = new Exercice1(numEtudiants); // Créer d'une instance de Exercice1
-
                     // Appel des méthodes de l'exercice 1
                     exercice1.trierNotes(); // Trier les notes des étudiants
                     System.out.println("Liste des notes triées : "); // Afficher un message pour les notes triées

@@ -1,6 +1,5 @@
 package Tp2.Exercice2;
 
-
 // Classe abstraite représentant un employé
 public abstract class Employe {
     protected String nom; // Nom de l'employé
@@ -17,10 +16,8 @@ public abstract class Employe {
         this.telephone = telephone;
         this.salaire = salaire;
     }
-
     // Constructeur par défaut
     public Employe() {}
-
     // Méthode abstraite pour calculer le salaire d'un employé
     public abstract double calculerSalaire();
 }

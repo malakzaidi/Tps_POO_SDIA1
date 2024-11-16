@@ -1,3 +1,4 @@
+package TP1.src;
 
 public class Exercice2 {
         private String verbe;
