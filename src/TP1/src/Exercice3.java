@@ -1,3 +1,5 @@
+package TP1.src;
+
 import java.util.Scanner;
 public class Exercice3 {
         private String chaine;

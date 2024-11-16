@@ -16,11 +16,8 @@ public class Personne {
         this.telephone = telephone;
         this.email = email;
     }
-
     // Méthode pour afficher les informations de la personne
     public void afficher() {
         System.out.println(prenom + " " + nom + " " + age + " " + telephone + " " + email);
     }
-
-
 }

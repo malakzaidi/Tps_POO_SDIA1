@@ -1,3 +1,5 @@
+package TP1.src;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

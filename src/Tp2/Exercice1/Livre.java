@@ -1,6 +1,5 @@
 package Tp2.Exercice1;
 
-
 // Classe représentant un livre dans la bibliothèque
 public class Livre {
     private String ISBN; // Numéro ISBN du livre (changé en String pour flexibilité)
@@ -8,7 +7,7 @@ public class Livre {
     private Auteur auteur; // Auteur du livre
 
     // Constructeur pour initialiser les attributs du livre
-    public Livre(int ISBN, String titre, Auteur auteur) {
+    public Livre(String ISBN, String titre, Auteur auteur) {
         this.ISBN = ISBN;
         this.titre = titre;
         this.auteur = auteur;

@@ -1,9 +1,7 @@
 package Tp2.Exercice3;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 // Classe représentant une commande
 public class Commande {
     private String reference; // Référence de la commande
@@ -11,7 +9,6 @@ public class Commande {
     private Date date; // Date de la commande
     private String etat; // État de la commande
     private List<LigneCommande> lignesCommandes; // Liste des lignes de commande
-
     // Constructeur pour initialiser les attributs de la commande
     public Commande(String reference, Client client, Date date, String etat) {
         this.reference = reference;
@@ -20,40 +17,31 @@ public class Commande {
         this.etat = etat;
         this.lignesCommandes = new ArrayList<>(); // Initialisation de la liste
     }
-
     // Getters et Setters
     public String getReference() {
         return reference;
     }
-
     public void setReference(String reference) {
         this.reference = reference;
     }
-
     public Client getClient() {
         return client;
     }
-
     public void setClient(Client client) {
         this.client = client;
     }
-
     public Date getDate() {
         return date;
     }
-
     public void setDate(Date date) {
         this.date = date;
     }
-
     public String getEtat() {
         return etat;
     }
-
     public void setEtat(String etat) {
         this.etat = etat;
     }
-
     public List<LigneCommande> getLignesCommandes() {
         return lignesCommandes;
     }
@@ -66,7 +54,6 @@ public class Commande {
             System.out.println("Ligne de commande existante.");
         }
     }
-
     // Méthode toString pour afficher les détails de la commande
     @Override
     public String toString() {

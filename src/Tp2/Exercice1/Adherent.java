@@ -1,6 +1,5 @@
 package Tp2.Exercice1;
 
-
 // Classe représentant un adhérent d'une bibliothèque qui hérite de la classe Personne
 public class Adherent extends Personne {
     private int numAdherent; // Numéro d'adhérent
