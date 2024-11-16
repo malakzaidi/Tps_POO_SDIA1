@@ -1,51 +1,26 @@
 package Tp2.Exercice1;
 
+// Classe représentant une personne avec des informations de base
 public class Personne {
-    private String firstname;
-    private String lastname;
-    private int age;
-    private String telephone;
-    private String email;
-    public Personne(String firstname, String lastname, int age, String telephone, String email) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
-        this.telephone = telephone;
-        this.email = email;
-    }
-    public void afficher() {
-        System.out.println(firstname + " " + lastname + " " + age + " " + telephone + " " + email);
-    }
-    public String getFirstname() {
-        return firstname;
-    }
-    public String getLastname() {
-        return lastname;
-    }
-    public int getAge() {
-        return age;
-    }
-    public String getTelephone() {
-        return telephone;
-    }
-    public String getEmail() {
-        return email;
+    private String prenom; // Prénom de la personne
+    private String nom; // Nom de la personne
+    private int age; // Âge de la personne
+    private String telephone; // Numéro de téléphone de la personne
+    private String email; // Adresse email de la personne
 
-    }
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-    public void setAge(int age) {
+    // Constructeur pour initialiser les attributs de la personne
+    public Personne(String prenom, String nom, int age, String telephone, String email) {
+        this.prenom = prenom;
+        this.nom = nom;
         this.age = age;
-    }
-    public void setTelephone(String telephone) {
         this.telephone = telephone;
-    }
-    public void setEmail(String email) {
         this.email = email;
     }
+
+    // Méthode pour afficher les informations de la personne
+    public void afficher() {
+        System.out.println(prenom + " " + nom + " " + age + " " + telephone + " " + email);
+    }
+
 
 }
