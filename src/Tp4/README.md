@@ -40,14 +40,23 @@ This TP includes exercises that demonstrate the following:
 1. Create a `Product` class with the following attributes:  
    - `id` (long)  
    - `name` (String)  
-   - `price` (double)  
+   - `price` (double)
+     
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/produiiit.PNG)
+
 2. Create a `GestionProduitsApp` class containing a `main` method.  
 3. Inside the `main` method, perform the following with an `ArrayList`:  
    - Add `Product` objects to the list.  
    - Remove a product by its index.  
    - Display the list of products.  
    - Modify a product at a specific index.  
-   - Search for a product by name, entered by the user.  
+   - Search for a product by name, entered by the user.
+     
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/G1.PNG)
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/G2.PNG)
+
+#### Execution: 
 
 ---
 
