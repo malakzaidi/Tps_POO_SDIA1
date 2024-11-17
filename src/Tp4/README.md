@@ -34,7 +34,7 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Create a simple application to manage a list of `Product` objects.  
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/1.PNG)
 
 #### Steps:  
 1. Create a `Product` class with the following attributes:  
@@ -80,7 +80,7 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Use a `HashMap` to store and manage students' grades.  
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/2.PNG)
 
 #### Steps:  
 1. Create a `HashMap` where:  
@@ -109,7 +109,7 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Perform operations with `HashSet` to manage student groups. 
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/3.PNG)
 
 #### Steps:  
 1. Create two `HashSet` objects named `groupA` and `groupB`, representing the names of students in groups A and B.  
@@ -133,7 +133,7 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Perform various operations on a list of strings using Streams.  
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/4.PNG)
 
 #### Steps:  
 
@@ -155,9 +155,7 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Use Streams to analyze and manipulate a list of employees.  
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
-
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/image_2024-11-17_165922186.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/5.PNG)
 
 #### Steps:  
 1. Create a `Employe` class with the following attributes:
