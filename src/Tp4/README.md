@@ -2,7 +2,7 @@
 
 This project (TP4) focuses on using **Collections** and **Streams** in Java. You'll work with Lists, Maps, and Sets to store and manipulate data, followed by functional programming techniques using Streams. Each exercise is designed to reinforce practical skills in handling Java data structures and stream operations.  
 
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/Difference-Between-Streams-and-Collections-in-Java.png)
 
 ## Table of Contents  
 
@@ -206,6 +206,9 @@ This TP includes exercises that demonstrate the following:
 2. Follow the prompts to interact with the program and test various features.  
 
 ---
+## Note 
+The exercise's language is french , for further comprehenhion:
+-Use any tool of translation to translate the exercise in your favourite language, Thanks for your comprehension!
 
 ## Contributing  
 
@@ -219,6 +222,3 @@ Contributions are welcome! If you have ideas for new features or improvements, p
 
 This project is licensed under the [MIT License](LICENSE).  
 
----  
-
-Let me know if you need additional modifications!
