@@ -143,7 +143,9 @@ This TP includes exercises that demonstrate the following:
 5. Convert each string to uppercase.  
 6. Map each string to its length.  
 7. Transform each string into a list of its characters, then flatten all lists into a single list of characters.  
-8. Map each word to a string of the format `"Name - Index"`, where the index represents its position in the list.  
+8. Map each word to a string of the format `"Name - Index"`, where the index represents its position in the list.
+
+#### Execution: 
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/image_2024-11-17_151222559.png)
 
@@ -155,11 +157,14 @@ This TP includes exercises that demonstrate the following:
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/image_2024-11-17_165922186.png)
+
 #### Steps:  
-1. Create a `Employe` class with the following attributes:  
-   - `id` (long)  
+1. Create a `Employe` class with the following attributes:
+   
    - `name` (String)  
-   - `price` (double)
+   - `department` (String)  
+   - `salary` (double)
   
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/d1.PNG)    
      
@@ -175,8 +180,11 @@ This TP includes exercises that demonstrate the following:
    - Use `reduce` to find the employee with the highest salary in the company.  
    - Use `reduce` to concatenate the names of all employees into a single string.
      
-![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/d1.PNG) 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/y1.PNG) 
 
+
+#### Execution: 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/e5.PNG)
 
 ---
 
