@@ -1,6 +1,6 @@
 # TP4: Collections and Streams in Java  
 
-This project (TP4) focuses on using **Collections** and **Streams** in Java. You'll work with Lists, Maps, and Sets to store and manipulate data, followed by functional programming techniques using Streams. Each exercise is designed to reinforce practical skills in handling Java data structures and stream operations.  
+This project (TP4) focuses on using **Collections** and **Streams** in Java. Working with Lists, Maps, and Sets to store and manipulate data, followed by functional programming techniques using Streams. Each exercise is designed to reinforce practical skills in handling Java data structures and stream operations.  
 
 ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp4/screenshots/Difference-Between-Streams-and-Collections-in-Java.png)
 
