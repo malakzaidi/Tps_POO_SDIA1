@@ -2,6 +2,8 @@
 
 This project (TP4) focuses on using **Collections** and **Streams** in Java. You'll work with Lists, Maps, and Sets to store and manipulate data, followed by functional programming techniques using Streams. Each exercise is designed to reinforce practical skills in handling Java data structures and stream operations.  
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+
 ## Table of Contents  
 
 1. [Overview](#overview)  
@@ -32,6 +34,8 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Create a simple application to manage a list of `Product` objects.  
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+
 #### Steps:  
 1. Create a `Product` class with the following attributes:  
    - `id` (long)  
@@ -51,6 +55,8 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Use a `HashMap` to store and manage students' grades.  
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+
 #### Steps:  
 1. Create a `HashMap` where:  
    - The key is a `String` (student's name).  
@@ -68,7 +74,9 @@ This TP includes exercises that demonstrate the following:
 
 ### Exercise 3: Sets  
 
-**Objective**: Perform operations with `HashSet` to manage student groups.  
+**Objective**: Perform operations with `HashSet` to manage student groups. 
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
 
 #### Steps:  
 1. Create two `HashSet` objects named `groupA` and `groupB`, representing the names of students in groups A and B.  
@@ -85,6 +93,8 @@ This TP includes exercises that demonstrate the following:
 
 **Objective**: Perform various operations on a list of strings using Streams.  
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
+
 #### Steps:  
 1. Filter words that contain the letter `"a"`.  
 2. Filter words with a length greater than 3 and reverse each word.  
@@ -99,6 +109,8 @@ This TP includes exercises that demonstrate the following:
 #### Exercise 4.2: Processing a List of Employees  
 
 **Objective**: Use Streams to analyze and manipulate a list of employees.  
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp3/screenshots/image_2024-11-04_104658881.png)
 
 #### Steps:  
 1. Create an `ArrayList` of employees, where each employee has:  
