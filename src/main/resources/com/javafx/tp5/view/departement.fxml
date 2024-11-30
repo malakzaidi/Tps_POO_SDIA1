@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.javafx.tp5.controllers.DepartementController"
+      spacing="20" stylesheets="@style.css">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <!-- Add button with modern styling -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Button text="Ajouter Département" onAction="#handleAdd" styleClass="button"/>
+    </HBox>
+
+    <!-- TableView for Departements -->
+    <TableView fx:id="departementTable" VBox.vgrow="ALWAYS" styleClass="table-view">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" styleClass="table-column"/>
+            <TableColumn fx:id="nomColumn" text="Nom" styleClass="table-column"/>
+            <TableColumn fx:id="actionsColumn" text="Actions" styleClass="table-column"/>
+        </columns>
+    </TableView>
+</VBox>
+
