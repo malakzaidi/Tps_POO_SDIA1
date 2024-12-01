@@ -141,15 +141,17 @@ The application allows the user to manage professors and departments with the fo
       -   Columns: Represent fields in the table (nom, prenom).
      -  Relationships:
       - Foreign Keys: Show references between tables (departement_id in professeur references id in departement).
-       - Example: Used by database administrators to design or maintain the database schema.
+        - Example: Used by database administrators to design or maintain the database schema.
+         
+### Class Diagram 
 
-### UML Class Diagram
-
-Include the UML Class Diagram for your project. This diagram shows the relationships between the **Professeur**, **Departement**, and other related classes.
+ ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/22.PNG)
 
 ### MLD (Mapping Logic Diagram)
 
  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/MLD.PNG)
+
+
 
 
 ---
