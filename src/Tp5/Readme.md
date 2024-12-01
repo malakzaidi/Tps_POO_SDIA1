@@ -149,7 +149,8 @@ Include the UML Class Diagram for your project. This diagram shows the relations
 
 ### MLD (Mapping Logic Diagram)
 
-Include the MLD to show how your **MySQL database** tables are mapped to the classes.
+ ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/MLD.PNG)
+
 
 ---
 
