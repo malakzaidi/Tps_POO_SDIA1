@@ -1,6 +1,3 @@
-Certainly! Here's a detailed `README.md` for your project. You can copy and modify it as needed:
-
-```markdown
 # Project: Management of Professors and Departments (JavaFX Application)
 
 ## Purpose of the Exercise
