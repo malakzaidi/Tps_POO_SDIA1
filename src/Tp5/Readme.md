@@ -1,158 +1,216 @@
-# Project: Management of Professors and Departments (JavaFX Application)
+# Tps_POO_SDIA1 - Professors and Departments Management System
 
-## Purpose of the Exercise
+This project is a **Professors and Departments Management System** built using **JavaFX** and **MySQL**. The system allows users to manage professors and departments in a university setting. It provides a graphical user interface (GUI) to interact with a MySQL database, where users can add, update, search, and delete professors and departments.
 
-This project is a management system for handling professors and departments in a university or educational institution. The purpose of this project is to implement a database-driven application with the following functionalities:
+---
 
-- Managing professors (adding, updating, deleting).
-- Managing departments (adding, updating, deleting).
-- Displaying the list of professors and departments.
-- A JavaFX interface for easy interaction with the system.
+## Table of Contents
 
-The exercise involves implementing persistent classes, creating a service layer, establishing a database connection using MySQL, and building a graphical user interface using JavaFX and SceneBuilder.
+1. [Project Purpose](#project-purpose)
+2. [Technologies Used](#technologies-used)
+3. [UI Overview](#ui-overview)
+4. [Diagrams](#diagrams)
+    - [UML Class Diagram](#uml-class-diagram)
+    - [MLD Diagram](#mld-diagram)
+5. [Database Setup and MySQL Integration](#database-setup-and-mysql-integration)
+    - [Setting Up the Database](#setting-up-the-database)
+    - [SQL Script](#sql-script)
+6. [Project Walkthrough](#project-walkthrough)
+    - [Classes](#classes)
+    - [Interface IMetier](#interface-imetier)
+    - [Database Connection (SingletonConnexionDB)](#database-connection-singletonconnexiondb)
+    - [Implementation (MetierImpl)](#implementation-metierimpl)
+    - [UI Components (ProfesseurController & DepartementController)](#ui-components-professeurcontroller--departementcontroller)
+7. [Installation and Setup](#installation-and-setup)
+    - [Prerequisites](#prerequisites)
+    - [Steps to Install](#steps-to-install)
+    - [Running the Application](#running-the-application)
+8. [Contributing](#contributing)
+9. [License](#license)
 
-## Screenshots of the JavaFX Application
+---
 
-### Managing Professors
-![Manage Professors](path/to/your/screenshots/manage_professors.png)
+## Project Purpose
 
-### Managing Departments
-![Manage Departments](path/to/your/screenshots/manage_departments.png)
+The purpose of this exercise is to develop an application that:
+- Manages the data of **professors** and **departments**.
+- Allows users to interact with a **MySQL database** through a JavaFX-based graphical user interface (GUI).
+- Provides a simple and intuitive way to add, update, and delete records in the database.
 
-## UML Diagrams
+---
 
-### 1. Class Diagram
-![Class Diagram](path/to/your/diagrams/class_diagram.png)
+## Technologies Used
 
-**Purpose**: The class diagram provides a visual representation of the classes involved in the system. It shows the relationship between the `Professeur` and `Departement` classes, their attributes, and methods.
+- **JavaFX**: Used to create the graphical user interface.
+- **MySQL**: Used to store and manage data.
+- **Lombok**: Used for generating boilerplate code such as getters, setters, and constructors.
+- **Maven**: Used for dependency management.
+- **JDK 21** and **JavaFX 23**.
 
-### 2. MLD (Logical Data Model) Diagram
-![MLD Diagram](path/to/your/diagrams/mld_diagram.png)
+---
 
-**Purpose**: The MLD diagram shows how the data entities (tables in the database) are logically structured and how they relate to one another. This includes the relationship between `Professeur` and `Departement`, such as foreign key constraints.
+## UI Overview
 
-## Database Setup
+### JavaFX Application
+The application allows the user to manage professors and departments with the following features:
 
-### Steps to Establish the Database Using MySQL Workbench
+1. **Add Professors**: Enter details such as name, department, email, etc., and save them to the database.
+2. **Edit Professors**: Modify existing professors' data.
+3. **Delete Professors**: Remove a professor from the database.
+4. **View Professors by Department**: View the list of professors in a specific department.
 
-1. **Install MySQL Workbench**: You can download and install MySQL Workbench from the official MySQL website: [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
-   
-2. **Install MySQL Server**: Install MySQL Server by following the installation guide for your operating system: [MySQL Installation](https://dev.mysql.com/doc/refman/8.0/en/installing.html).
+**Key Screens**:
+- **Professors Management**: Display a table of professors with options to add, edit, or delete them.
+- **Departments Management**: Display a table of departments with options to add, edit, or delete them.
 
-3. **Create the Database**:
-   Open MySQL Workbench and connect to your MySQL server.
+**For Screenshots and UML Diagrams**, you can include them in the **"Screenshots"** section below.
 
-   Execute the following SQL script to create the database and tables:
+---
+
+## Diagrams
+
+### UML Class Diagram
+
+Include the UML Class Diagram for your project. This diagram shows the relationships between the **Professeur**, **Departement**, and other related classes.
+
+### MLD (Mapping Logic Diagram)
+
+Include the MLD to show how your **MySQL database** tables are mapped to the classes.
+
+---
+
+## Database Setup and MySQL Integration
+
+### Setting Up the Database
+
+Follow these steps to create the database and tables in **MySQL**:
+
+1. **Install MySQL Workbench**: If you don't have MySQL Workbench installed, [download and install MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
+2. **Create a Database**:
+   - Open **MySQL Workbench**.
+   - Connect to your MySQL server.
+   - Run the following SQL script to create the database:
 
    ```sql
-   CREATE DATABASE IF NOT EXISTS management_depts_profs;
-
+   CREATE DATABASE management_depts_profs;
    USE management_depts_profs;
+   ```
 
-   -- Create the departement table
-   CREATE TABLE IF NOT EXISTS departement (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       nom VARCHAR(255) NOT NULL
-   );
+3. **Create Tables**:
+   - Create the `professeur` and `departement` tables:
 
-   -- Create the professeur table
-   CREATE TABLE IF NOT EXISTS professeur (
+   ```sql
+   CREATE TABLE professeur (
        id INT AUTO_INCREMENT PRIMARY KEY,
-       nom VARCHAR(255) NOT NULL,
-       prenom VARCHAR(255),
-       cin VARCHAR(20),
+       nom VARCHAR(100),
+       prenom VARCHAR(100),
+       cin VARCHAR(50),
        adresse VARCHAR(255),
-       telephone VARCHAR(20),
-       email VARCHAR(255),
+       telephone VARCHAR(50),
+       email VARCHAR(100),
        date_recrutement DATE,
        departement_id INT,
        FOREIGN KEY (departement_id) REFERENCES departement(id)
    );
+
+   CREATE TABLE departement (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       nom VARCHAR(100)
+   );
    ```
 
-4. **Run the SQL Script**:
-   In MySQL Workbench, open a new SQL tab, paste the script, and execute it to create the required tables.
+4. **Test the Database Connection**:
+   - Make sure the **MySQL server** is running.
+   - Use the **TestMySqlConnection** class to ensure your Java application can connect to the database.
 
-### SQL Script Explanation
+### SQL Script
 
-- **`CREATE DATABASE`**: Creates the database `management_depts_profs`.
-- **`CREATE TABLE`**: Defines two tables: `departement` and `professeur`. The `professeur` table contains a foreign key `departement_id` that references the `id` column in the `departement` table.
+This SQL script creates the `professeur` and `departement` tables. These are the main tables that store professor and department data.
 
-## Project Structure
+---
 
-### Package Breakdown
+## Project Walkthrough
 
-1. **Entities**
-   - **`Professeur`**: Represents a professor with attributes like `id`, `nom`, `prenom`, etc.
-   - **`Departement`**: Represents a department with `id` and `nom`.
+### Classes
 
-2. **Services**
-   - **`IMetier`**: The interface declaring the methods for interacting with the `Professeur` and `Departement` entities.
-   - **`MetierImpl`**: The implementation of `IMetier`, responsible for interacting with the database to perform CRUD operations on professors and departments.
+- **Professeur**: Represents a professor entity with attributes like `id`, `nom` (name), `prenom` (first name), and other personal details. The class uses **Lombok** annotations to automatically generate getter, setter, and constructor methods.
+  
+- **Departement**: Represents a department entity with `id` and `nom` (name). This class has basic getters and setters.
 
-3. **Controllers**
-   - **`AppController`**: Manages the interaction between the JavaFX interface and the underlying business logic for managing professors and departments.
-   - **`ProfesseurController`**: Handles actions related to professors (adding, deleting, searching).
-   - **`DepartementController`**: Handles actions related to departments (adding, deleting, viewing professors).
+### Interface `IMetier`
 
-4. **Utils**
-   - **`SingletonConnexionDB`**: Contains the method to establish a single connection to the database (singleton pattern).
+The interface `IMetier` defines the methods for the business logic. These methods will be implemented by the `MetierImpl` class. This interface is responsible for CRUD operations (Create, Read, Update, Delete) for both `Professeur` and `Departement`.
 
-5. **Tests**
-   - **`TestMySqlConnection`**: A test class to verify the connection to the MySQL database.
-   - **`ConsoleApp`**: A console-based application to test the business logic methods.
+### Database Connection (`SingletonConnexionDB`)
 
-### How the Application Works
-- The `ProfesseurController` and `DepartementController` are connected to JavaFX FXML views for the user interface.
-- The JavaFX application allows users to manage professors and departments with the use of buttons and forms.
-- The application communicates with the database through `MetierImpl`, which performs SQL queries to manipulate data.
+- **Singleton Pattern**: The `SingletonConnexionDB` class ensures that only one database connection exists throughout the application. The `getConnexion` method returns the same connection instance every time it's called.
+  
+### Implementation (`MetierImpl`)
+
+The `MetierImpl` class implements the `IMetier` interface and handles the actual database queries (using `PreparedStatement`) to manage professors and departments.
+
+Example of adding a professor:
+
+```java
+@Override
+public void addProfesseur(Professeur professeur) {
+    try {
+        PreparedStatement ps = connection.prepareStatement(
+                "INSERT INTO professeur (nom, prenom, cin, adresse, telephone, email, date_recrutement , departement_id) " +
+                        "VALUES (?, ?, ?, ?, ?, ?, ? , ?)"
+        );
+        ps.setString(1, professeur.getNom());
+        ps.setString(2, professeur.getPrenom());
+        ps.setString(3, professeur.getCin());
+        ps.setString(4, professeur.getAdresse());
+        ps.setString(5, professeur.getTelephone());
+        ps.setString(6, professeur.getEmail());
+        ps.setDate(7, new java.sql.Date(professeur.getDateRecrutement().getTime()));
+        ps.setInt(8, professeur.getDepartementId());
+        ps.executeUpdate();
+    } catch (SQLException e) {
+        System.out.println(e.getMessage());
+    }
+}
+```
+
+### UI Components (`ProfesseurController` & `DepartementController`)
+
+These controllers manage the user interface for professors and departments. They initialize the tables, load data, and handle user actions (such as adding, editing, or deleting).
+
+Example of table setup:
+
+```java
+private void setupTable() {
+    idColumn.setCellValueFactory(new PropertyValueFactory<>("idProf"));  // Binding ID to idProf
+    nomColumn.setCellValueFactory(new PropertyValueFactory<>("nom"));   // Binding Name to nom
+    prenomColumn.setCellValueFactory(new PropertyValueFactory<>("prenom")); // Binding First Name to prenom
+    cinColumn.setCellValueFactory(new PropertyValueFactory<>("cin"));   // Binding CIN to cin
+    emailColumn.setCellValueFactory(new PropertyValueFactory<>("email")); // Binding Email to email
+    departementColumn.setCellValueFactory(cellData -> {
+        var departementOptional = metier.getAllDepartements().stream()
+                .filter(departement -> departement.getIdDeprat() == cellData.getValue().getIdDepart())
+                .findFirst();
+        return new SimpleStringProperty(departementOptional.map(Departement::getNom).orElse("Non trouvé"));
+    });
+}
+```
+
+---
 
 ## Installation and Setup
 
 ### Prerequisites
-- **JDK 21**: You can download and install JDK 21 from [Oracle's JDK Download page](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
-  
-- **MySQL**: Install MySQL server and MySQL Workbench. Follow the guide to [Install MySQL Server](https://dev.mysql.com/doc/refman/8.0/en/installing.html).
 
-- **Maven**: Install Maven if you don’t have it already. You can follow this guide: [Maven Installation](https://maven.apache.org/install.html).
+1. **JDK 21**: Make sure **JDK 21** is installed on your machine. Download it from [here](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
+   
+2. **JavaFX 23**: Install **JavaFX 23** to create GUI applications with Java. Download it from [here](https://openjfx.io/).
 
-### VM Options for JavaFX
-To run the JavaFX application, set the following VM options in IntelliJ IDEA or your preferred IDE:
+3. **Maven**: Make sure **Maven** is installed on your system. Download and install it from [here](https://maven.apache.org/download.cgi).
 
-```
---module-path "C:\Program Files\Java\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml
-```
+4. **MySQL Server**: Install **MySQL Server** and **MySQL Workbench** from [here](https://dev.mysql.com/downloads/).
 
-### Installing JDK 21
-To install JDK 21 on your system:
-1. Download the installer from the [JDK 21 download page](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
-2. Follow the installation instructions for your operating system.
+### Steps to Install
 
-### Installing Maven
-To install Maven:
-1. Download the latest Maven version from the [official Maven website](https://maven.apache.org/download.cgi).
-2. Follow the [installation instructions](https://maven.apache.org/install.html).
-
-### Resolving Dependency Issues
-If you face issues with dependencies in `pom.xml`, you can resolve them by:
-1. Ensuring that your Maven `settings.xml` file is correctly configured.
-2. Using the `mvn clean install` command to refresh your dependencies.
-
-### Executable Jar
-To create an executable JAR file for the project, you can use Maven to package it:
-
-```bash
-mvn clean package
-```
-
-This will create a `.jar` file in the `target/` directory that you can run from the command line.
-
-### Contributions
-If you’d like to contribute to the project, feel free to fork it and submit pull requests. Contributions are welcome to improve the project, add features, or fix bugs!
-
-### License
-This project is licensed under the MIT License.
-
----
-
-This `README.md` provides a comprehensive guide to set up and understand your project, from database creation to running the JavaFX application.
+1. **Install JDK 21**:
+   - Download the JDK and install it. 
