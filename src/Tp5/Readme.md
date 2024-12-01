@@ -183,45 +183,41 @@ This SQL script creates the `professeurs` and `departements` tables. These are t
 
 - **Professeur**: Represents a professor entity with attributes like `id`, `nom` (name), `prenom` (first name), and other personal details. The class uses **Lombok** annotations to automatically generate getter, setter, and constructor methods.
   
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/13.PNG)  
+  
 - **Departement**: Represents a department entity with `id` and `nom` (name). This class has basic getters and setters.
+  
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/14.PNG)  
+  
 
 ### Interface `IMetier`
 
-The interface `IMetier` defines the methods for the business logic. These methods will be implemented by the `MetierImpl` class. This interface is responsible for CRUD operations (Create, Read, Update, Delete) for both `Professeur` and `Departement`.
+The interface `IMetier` defines the methods for the business logic. 
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/15.PNG)  
+
+These methods will be implemented by the `MetierImpl` class. This interface is responsible for CRUD operations (Create, Read, Update, Delete) for both `Professeur` and `Departement`.
+Here is some of the methods implemented :
+
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/16.PNG)  
 
 ### Database Connection (`SingletonConnexionDB`)
 
 - **Singleton Pattern**: The `SingletonConnexionDB` class ensures that only one database connection exists throughout the application. The `getConnexion` method returns the same connection instance every time it's called.
   
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/18.PNG)  
+
 ### Implementation (`MetierImpl`)
 
 The `MetierImpl` class implements the `IMetier` interface and handles the actual database queries (using `PreparedStatement`) to manage professors and departments.
 
-Example of adding a professor:
+### Console App 
 
-```java
-@Override
-public void addProfesseur(Professeur professeur) {
-    try {
-        PreparedStatement ps = connection.prepareStatement(
-                "INSERT INTO professeur (nom, prenom, cin, adresse, telephone, email, date_recrutement , departement_id) " +
-                        "VALUES (?, ?, ?, ?, ?, ?, ? , ?)"
-        );
-        ps.setString(1, professeur.getNom());
-        ps.setString(2, professeur.getPrenom());
-        ps.setString(3, professeur.getCin());
-        ps.setString(4, professeur.getAdresse());
-        ps.setString(5, professeur.getTelephone());
-        ps.setString(6, professeur.getEmail());
-        ps.setDate(7, new java.sql.Date(professeur.getDateRecrutement().getTime()));
-        ps.setInt(8, professeur.getDepartementId());
-        ps.executeUpdate();
-    } catch (SQLException e) {
-        System.out.println(e.getMessage());
-    }
-}
-```
+-**Testing the backend methods implemented in `IMetier` :
+Example:
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/17.PNG)  
+  
 ### UI Components (`ProfesseurController` & `DepartementController`)
 
 These controllers manage the user interface for professors and departments. They initialize the tables, load data, and handle user actions (such as adding, editing, or deleting).
