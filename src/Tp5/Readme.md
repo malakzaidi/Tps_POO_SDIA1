@@ -1,5 +1,7 @@
 #  Professors and Departments Management System (JavaFx Application)
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/ggg.PNG)
+
 This project is a **Professors and Departments Management System** built using **JavaFX** and **MySQL**. The system allows users to manage professors and departments in a university setting. It provides a graphical user interface (GUI) to interact with a MySQL database, where users can add, update, search, and delete professors and departments.
 
 ---
