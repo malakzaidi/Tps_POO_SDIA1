@@ -1,4 +1,4 @@
-# Tps_POO_SDIA1 - Professors and Departments Management System
+#  Professors and Departments Management System (JavaFx Application)
 
 This project is a **Professors and Departments Management System** built using **JavaFX** and **MySQL**. The system allows users to manage professors and departments in a university setting. It provides a graphical user interface (GUI) to interact with a MySQL database, where users can add, update, search, and delete professors and departments.
 
@@ -261,4 +261,63 @@ private void setupTable() {
 ### Steps to Install
 
 1. **Install JDK 21**:
-   - Download the JDK and install it. 
+   - Download the JDK and install it.
+2. **Install JavaFX**:
+   - Download the JavaFX SDK from [openjfx.io](https://openjfx.io/).
+   - Extract the SDK to a folder, and note the path (e.g., `C:\Program Files\Java\javafx-sdk-23.0.1`).
+     
+3. **Install Maven**:
+   - Download Maven and extract it.
+   - Add the `bin` directory to your system's PATH environment variable.
+   - Verify installation by running `mvn -version` in the terminal.
+
+4. **Set Up MySQL**:
+   - Install MySQL Server and MySQL Workbench.
+   - Create the `tp5` database and tables using the SQL script provided earlier.
+     
+5. **Set Up SceneBuilder for a smooth Ui Design**:
+   - Install SceneBuilder from (https://gluonhq.com/products/scene-builder/).
+   - Create the `tp5` database and tables using the SQL script provided earlier.   
+
+6. **Clone the Repository**:
+   - Clone the repository to your local machine:
+     ```bash
+     git clone https://github.com/malakzaidi/Tps_POO_SDIA1.git
+     cd Tps_POO_SDIA1
+     ```
+
+7. **Build the Project**:
+   - Navigate to the project folder and build it using Maven:
+     ```bash
+     mvn clean install
+     ```
+
+8. **Configure VM Options**:
+   - Add the following VM options to run the JavaFX application:
+     ```plaintext
+     --module-path "path-to-javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml
+     ```
+   - Replace `path-to-javafx-sdk` with the actual path to your JavaFX installation.
+
+### Running the Application
+1. Open the project in your IDE.
+2. Configure your `Run Configuration` to include the VM options above.
+3. Run the `App` class from the `com.javafx.hada` package.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m "Add feature-name"`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
