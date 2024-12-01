@@ -61,10 +61,58 @@ The application allows the user to manage professors and departments with the fo
 
 **Key Screens**:
 - **Professors Management**: Display a table of professors with options to add, edit, or delete them.
-- **Departments Management**: Display a table of departments with options to add, edit, or delete them.
+  
+  -Displaying the list of professors :
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/1.PNG)
 
+  -Adding a professor :
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/2.PNG)
+  
+  -Deleting a professor :
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/3.PNG)
+  
+  -Modifying a professor:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/4.PNG)
 
+   -Assigning a departement to a professor:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/5.PNG)
 
+   -Professor Assigned:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/6.PNG)
+
+   -Searching a professor:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/6.PNG)
+
+  - **Departments Management**: Display a table of departments with options to add, edit, or delete them.
+
+  -Displaying the list of departments :
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/8.PNG)
+
+  -Modifying a departement:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/9.PNG)
+  
+  -Displaying professors based on their departement:
+  
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/10.PNG)
+  
+  -Deleting a departement:
+
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/11.PNG)
+
+  -Adding a departement:
+
+  ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/12.PNG)
+
+  
 ---
 
 ## Diagrams
@@ -92,15 +140,15 @@ Follow these steps to create the database and tables in **MySQL**:
    - Run the following SQL script to create the database:
 
    ```sql
-   CREATE DATABASE management_depts_profs;
-   USE management_depts_profs;
+   CREATE DATABASE tp5;
+   USE tp5;
    ```
 
 3. **Create Tables**:
-   - Create the `professeur` and `departement` tables:
+   - Create the `professeurs` and `departements` tables:
 
    ```sql
-   CREATE TABLE professeur (
+   CREATE TABLE professeurs (
        id INT AUTO_INCREMENT PRIMARY KEY,
        nom VARCHAR(100),
        prenom VARCHAR(100),
@@ -110,10 +158,10 @@ Follow these steps to create the database and tables in **MySQL**:
        email VARCHAR(100),
        date_recrutement DATE,
        departement_id INT,
-       FOREIGN KEY (departement_id) REFERENCES departement(id)
+       FOREIGN KEY (departements_id) REFERENCES departements(id)
    );
 
-   CREATE TABLE departement (
+   CREATE TABLE departements (
        id INT AUTO_INCREMENT PRIMARY KEY,
        nom VARCHAR(100)
    );
@@ -125,7 +173,7 @@ Follow these steps to create the database and tables in **MySQL**:
 
 ### SQL Script
 
-This SQL script creates the `professeur` and `departement` tables. These are the main tables that store professor and department data.
+This SQL script creates the `professeurs` and `departements` tables. These are the main tables that store professor and department data.
 
 ---
 
