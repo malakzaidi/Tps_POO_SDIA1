@@ -15,7 +15,6 @@ import javafx.scene.layout.HBox;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javafx.scene.control.*;
 
 public class ProfesseurController implements Initializable {
     private final IMetier metier = new MetierImpl();
