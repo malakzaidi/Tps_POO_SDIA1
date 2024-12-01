@@ -120,6 +120,29 @@ The application allows the user to manage professors and departments with the fo
 
 ## Diagrams
 
+### Difference Between a Class Diagram and an MLD Diagram
+
+  1. Class Diagram (UML):
+     Purpose: Represents the structure of the system from an object-oriented programming perspective.
+     Components:
+     Classes: Represent entities (e.g., Professeur, Departement).
+     Attributes: Represent data fields in each class (e.g., nom, prenom in Professeur).
+     Methods: Represent behaviors or functions (e.g., addProfesseur() in MetierImpl).
+     Relationships:
+     Associations: Show how classes relate (e.g., Professeur is associated with Departement via departement_id).
+     Inheritance: Show class hierarchies.
+     Multiplicity: Indicate the number of instances involved (e.g., 1 Department can have 0..* Professors).
+     Example: Used by developers to visualize and understand the codebase or plan object-oriented designs.
+     
+  2. MLD (Logical Data Model):
+     Purpose: Represents the structure of the relational database.
+     Components:
+     Tables: Represent entities stored in the database (professeur, departement).
+     Columns: Represent fields in the table (nom, prenom).
+     Relationships:
+     Foreign Keys: Show references between tables (departement_id in professeur references id in departement).
+     Example: Used by database administrators to design or maintain the database schema.
+
 ### UML Class Diagram
 
 Include the UML Class Diagram for your project. This diagram shows the relationships between the **Professeur**, **Departement**, and other related classes.
