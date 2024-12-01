@@ -192,6 +192,7 @@ Follow these steps to create the database and tables in **MySQL**:
        nom VARCHAR(100)
    );
    ```
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/image_2024-12-01_045449742.png)
 
 4. **Test the Database Connection**:
    - Make sure the **MySQL server** is running.
