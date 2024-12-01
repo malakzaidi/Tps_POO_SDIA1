@@ -197,6 +197,8 @@ Follow these steps to create the database and tables in **MySQL**:
 4. **Test the Database Connection**:
    - Make sure the **MySQL server** is running.
    - Use the **TestMySqlConnection** class to ensure your Java application can connect to the database.
+     
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/21.PNG)
 
 ### SQL Script
 
