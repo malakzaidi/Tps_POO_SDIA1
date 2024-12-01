@@ -63,7 +63,7 @@ The application allows the user to manage professors and departments with the fo
 - **Professors Management**: Display a table of professors with options to add, edit, or delete them.
 - **Departments Management**: Display a table of departments with options to add, edit, or delete them.
 
-**For Screenshots and UML Diagrams**, you can include them in the **"Screenshots"** section below.
+
 
 ---
 
