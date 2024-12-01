@@ -144,16 +144,56 @@ The application allows the user to manage professors and departments with the fo
         - Example: Used by database administrators to design or maintain the database schema.
          
 ### Class Diagram 
+  - Classe Professeur:
+   - Attributes:
+   - `id_prof (int)`: Unique identifier for each professor.
+   - `nom (string)`: Last name of the professor.
+   - `prenom (string):` First name of the professor.
+   - `cin (string)`: National identity card number of the professor.
+   - `adresse (string)`: Address of the professor.
+   - `telephone (string)`: Phone number of the professor.
+   - `email (string)`: Email address of the professor.
+   - `date_recrutement (date)`: Recruitment date of the professor.     
+  - Methods:
+   - `afficher()`: Display the professor's information.
+   - `rechercher(String motCle)`: Search for professors by keyword.
+   - `ajouter()`: Add a new professor.
+   - `supprimer()`: Delete a professor.
+   - `modifier()`: Modify the professor's information.
+  - Classe Departement:
+  - Attributes:
+   - `id_deprat (int)`: Unique identifier for each department.
+   - `nom (string)`: Name of the department.
+  - Methods:
+   - `ajouterProfesseur(Professeur prof)`: Add a professor to the department.
+   - `supprimerProfesseur(Professeur prof)`: Remove a professor from the department.
+   - `afficherProfesseurs()`: Display the list of professors in the department.
+   - `modifierDepartement()`: Modify the department's information.
+  - Relationships:
+    The Professeur class has a one-to-many relationship with the Departement class, indicating that each professor belongs to one department, and a department can have multiple professors.
 
- ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/22.PNG)
+    ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/22.png)
 
-### MLD (Mapping Logic Diagram)
+### MLD (Mapping Logic Diagram) 
 
- ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/MLD.PNG)
-
-
-
-
+For this application, the MLD diagram includes the following tables:
+  - Professeur:
+   - `id_prof (int)`: Unique identifier for each professor.
+   - `nom (string)`: Last name of the professor.
+   - `prenom (string):` First name of the professor.
+   - `cin (string)`: National identity card number of the professor.
+   - `adresse (string)`: Address of the professor.
+   - `telephone (string)`: Phone number of the professor.
+   - `email (string)`: Email address of the professor.
+   - `date_recrutement (date)`: Recruitment date of the professor.
+  - Departement:
+   - `id_deprat (int)`: Unique identifier for each department.
+   - `nom (string)`: Name of the department.
+   - Relationships:
+    - Each professor belongs to one department, and a department can have multiple professors. This is represented by a one-to-many relationship between the Departement and Professeur tables.
+     
+      ![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp5/screenshots/MLD.PNG)
+   
 ---
 
 ## Database Setup and MySQL Integration
