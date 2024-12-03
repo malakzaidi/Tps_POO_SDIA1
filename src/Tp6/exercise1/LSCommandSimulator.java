@@ -1,4 +1,4 @@
-package exercise1;
+package Tp6.exercise1;
 
 import java.io.File;
 import java.util.Scanner;
