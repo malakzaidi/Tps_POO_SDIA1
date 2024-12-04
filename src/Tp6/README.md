@@ -1,4 +1,4 @@
-# "Generics and Input/Output in Java.
+# Generics and Input/Output in Java.
 
 This project contains solutions to exercises focusing on the concepts of **Generics** and **Input/Output (I/O)** in Java. These exercises aim to solidify understanding of file handling, data serialization, and working with generics to create flexible, type-safe code. Each exercise is structured to solve a practical problem and is accompanied by detailed explanations and screenshots of the implementation and execution.
 
