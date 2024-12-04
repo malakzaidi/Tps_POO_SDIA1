@@ -44,7 +44,7 @@ The program uses the `File` class to interact with the file system:
 #### Code Screenshot:
 Below is a code snippet showing the core functionality for listing files:
 
-![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/1.PNG)
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/1.PNG)
 
 #### Execution:
 When executed, the program outputs a list of files and directories, as shown below:
