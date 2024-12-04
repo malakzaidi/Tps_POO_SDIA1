@@ -42,8 +42,17 @@ Below is a code snippet showing the core functionality for listing files:
 
 #### Execution:
 The program outputs a list of files and directories, as shown below:
+-if the directory exist and it is not empty : 
 
-![Execution of Exercise 1](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/2.PNG)
+![Execution of Exercise 1](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/a.PNG)
+
+-if the directory doesn't exist:
+
+![Execution of Exercise 1](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/b.PNG)
+
+-if the directory is empty :
+
+![Execution of Exercise 1](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/c.PNG)
 
 ---
 
