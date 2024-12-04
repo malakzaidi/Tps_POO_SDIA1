@@ -44,12 +44,13 @@ The program uses the `File` class to interact with the file system:
 #### Code Screenshot:
 Below is a code snippet showing the core functionality for listing files:
 
-![Code Screenshot](path/to/exercise1-code-screenshot.png)
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/1.PNG)
 
 #### Execution:
 When executed, the program outputs a list of files and directories, as shown below:
 
-![Execution Screenshot](path/to/exercise1-execution-screenshot.png)
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/1.PNG)
+
 
 ---
 
@@ -67,9 +68,15 @@ The program uses the following structure:
 - **CRUD Operations**: The system provides Create, Read, Update, and Delete functionalities.
 - **User Interface**: A menu-driven system interacts with the user.
 
+Below is a screenshot of the dossier contract class :
+
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/2.PNG)
+
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/3.PNG)
+
 Below is a screenshot of the main menu implementation:
 
-![Menu Code Screenshot](path/to/exercise2-code-menu-screenshot.png)
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/4.PNG)
 
 #### Execution:
 The menu prompts the user to perform actions, as shown in this execution screenshot:
@@ -93,11 +100,27 @@ This exercise demonstrates how to manage collections of `Product` and `Client` o
 
 Here's a screenshot of the `Product` class:
 
-![Product Class Code Screenshot](path/to/exercise3-product-class-code.png)
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/5.PNG)
+
+Here's a screenshot of the `Client` class:
+
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/6.PNG)
+
+Here's a screenshot of the `IMetier<T>` interface:
+
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/7.PNG)
+
+Here's a screenshot of the  `MetierProduitImpl` class:
+
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/8.PNG)
+
+Note : `MetierClientImpl` follows the same logic also .
 
 The main menu for managing products looks like this:
 
-![Menu Code Screenshot](path/to/exercise3-menu-code.png)
+![image alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/8.PNG)
+
+Note :The main menu for managing clients follows the same logic also .
 
 #### Execution:
 Below is a screenshot of the program execution showing the menu in action:
