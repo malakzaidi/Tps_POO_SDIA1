@@ -58,9 +58,11 @@ The following demonstrate the `DossierContact` class implementation and main men
 
 - **DossierContact Class:**
   
-  ![DossierContact Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/3.PNG)
+  ![DossierContact Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/2.PNG)
 
 - **Main Menu Implementation:**
+  
+  ![Main Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/3.PNG)
   
   ![Main Menu](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/4.PNG)
 
@@ -79,19 +81,31 @@ The menu prompts the user to perform actions:
 
 #### Screenshots:
 Below are the class and interface implementations:
+
 - **Product Class:**
-  ![Product Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/6.PNG)
+  
+  ![Product Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/5.PNG)
 
 - **Client Class:**
-  ![Client Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/7.PNG)
+  
+  ![Client Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/6.PNG)
 
 - **IMetier Interface:**
+  
+  ![IMetier Interface](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/7.PNG)
+
+- **MetierProfuitImpl class:**
+  
   ![IMetier Interface](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/8.PNG)
 
 #### Execution:
-The following shows the program's main menu in action:
+The following shows the produit's main menu in action:
 
-![Execution of Exercise 3](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/9.PNG)
+![Execution of Exercise 3](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/10.PNG)
+
+Note : MetierClientImpl and the client's main application follow the same logic.
+
+-Execution : 
 
 ---
 
