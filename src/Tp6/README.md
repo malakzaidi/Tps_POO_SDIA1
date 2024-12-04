@@ -78,7 +78,7 @@ The following demonstrate the `DossierContact` class implementation and main men
 #### Execution:
 The menu prompts the user to perform actions:
 
-![Execution of Exercise 2](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/5.PNG)
+![Execution of Exercise 2](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/d.PNG)
 
 ---
 
@@ -107,16 +107,16 @@ Below are the class and interface implementations:
   
   ![IMetier Interface](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/8.PNG)
 
-#### Execution:
+#### Main:
 The following shows the produit's main menu in action:
 
 ![Execution of Exercise 3](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/10.PNG)
 
 Note : MetierClientImpl and the client's main application follow the same logic.
 
--Execution : 
+#### Execution:
 
----
+![Execution of Exercise 3](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/e.PNG)
 
 ## How to Run
 
