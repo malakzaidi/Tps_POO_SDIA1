@@ -71,9 +71,11 @@ The following demonstrate the `DossierContact` class implementation and main men
 
 - **Main Menu Implementation:**
   
+  ![Main Menu](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/4.PNG)
+  
   ![Main Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/3.PNG)
   
-  ![Main Menu](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/4.PNG)
+  
 
 #### Execution:
 The menu prompts the user to perform actions:
