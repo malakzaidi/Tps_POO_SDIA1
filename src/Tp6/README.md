@@ -57,9 +57,11 @@ The program outputs a list of files and directories, as shown below:
 The following demonstrate the `DossierContact` class implementation and main menu execution:
 
 - **DossierContact Class:**
+  
   ![DossierContact Class](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/3.PNG)
 
 - **Main Menu Implementation:**
+  
   ![Main Menu](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp6/screenshots/4.PNG)
 
 #### Execution:
