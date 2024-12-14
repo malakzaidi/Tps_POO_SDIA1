@@ -92,10 +92,32 @@ When the program is executed, it creates 10 threads, each summing a portion of t
 
    ![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/output2.PNG)
 
+ -Why Is the Output 5050?
+  The sum of integers from 1 to 100 can be calculated using the formula for the sum of an arithmetic series:
+  This formula matches the program's output because:
+  The array contains integers from 1 to 100.
+  The threads collectively compute the sum of all elements in the array, ensuring no overlaps or missed indices.
+
+  -Behind the Scenes:
+   Thread Contributions: Each thread contributes a partial sum:
+   Thread 0 (indices 0-9): Sum of 1-10 = 55
+   Thread 1 (indices 10-19): Sum of 11-20 = 155
+   ...
+   Thread 9 (indices 90-99): Sum of 91-100 = 955
+
+-Concurrency:
+   All threads run concurrently, but the order of their execution is managed by the JVM and OS thread scheduler.
+   The join() ensures that all threads finish before the main thread computes the final sum.
+
+-Accuracy:
+   The Sommeur objects are isolated and handle disjoint ranges of the array, avoiding race conditions.
+   This ensures that the final sum is accurate.
+
 ---
 
 ## Conclusion
-Both exercises demonstrate key concepts in multi-threading using Java. Exercise 1 illustrates how multiple threads can be run concurrently to perform simple tasks. Exercise 2 shows how computational tasks can be parallelized to improve efficiency by splitting the work across multiple threads.
+   Both exercises demonstrate key concepts in multi-threading using Java. Exercise 1 illustrates how multiple threads can be run concurrently to perform simple tasks. Exercise 2 shows how computational tasks can 
+   be parallelized to improve efficiency by splitting the work across multiple threads.
 
 These exercises provide a solid foundation for understanding multi-threading in Java, which is essential for writing efficient, concurrent programs.
 
