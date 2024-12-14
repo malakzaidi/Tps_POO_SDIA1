@@ -48,7 +48,7 @@ In this exercise, we have two main classes:
 ### Execution and Output
 When the program is executed, it creates 10 threads, each printing a line that includes its `id` and a count from 0 to 99. The output will be interleaved, as all threads are running concurrently.
 
-![Screenshot Placeholder](#screenshot-placeholder)
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/1.PNG)
 
 ---
 
