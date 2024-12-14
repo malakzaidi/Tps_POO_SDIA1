@@ -17,12 +17,10 @@ In this exercise, the task is to calculate the sum of a range of numbers within 
    - [Objective](#objective)
    - [Code Structure](#code-structure)
    - [Execution and Output](#execution-and-output)
-   - ![Screenshot Placeholder](#screenshot-placeholder)
 2. [Exercise 2: Sum Calculation Using Multiple Threads](#exercise-2-sum-calculation-using-multiple-threads)
    - [Objective](#objective-1)
    - [Code Structure](#code-structure-1)
    - [Execution and Output](#execution-and-output-1)
-   - ![Screenshot Placeholder](#screenshot-placeholder-1)
 3. [Conclusion](#conclusion)
 
 ---
@@ -39,16 +37,20 @@ In this exercise, we have two main classes:
 1. **`Talkactive`**:
     - Implements the `Runnable` interface and overrides the `run()` method.
     - Each instance of this class is assigned an `id`, which will be printed along with a count from 0 to 99.
+      
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/2.PNG)
 
 2. **`App1`**:
     - The entry point of the program.
     - Creates 10 instances of `Talkactive` and wraps them in `Thread` objects.
     - Starts all threads concurrently using `start()`.
+      
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/1.PNG)
 
 ### Execution and Output
 When the program is executed, it creates 10 threads, each printing a line that includes its `id` and a count from 0 to 99. The output will be interleaved, as all threads are running concurrently.
 
-![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/1.PNG)
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/output1.PNG)
 
 ---
 
@@ -64,17 +66,21 @@ In this exercise, we have two main classes:
 1. **`Sommeur`**:
     - Implements the `Runnable` interface.
     - Each instance is assigned a range of indices (`debut` and `fin`) within the array and calculates the sum for that range.
+      
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/3.PNG)
 
 2. **`App2`**:
     - The entry point of the program.
     - Creates an array of 100 integers.
     - Divides the array into 10 parts and creates 10 threads, each responsible for calculating the sum of one part.
     - After all threads finish, it sums the results from each thread to calculate the total sum.
+      
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/4.PNG)
 
 ### Execution and Output
 When the program is executed, it creates 10 threads, each summing a portion of the array. The total sum of the array is calculated by combining the results from all threads.
 
-![Screenshot Placeholder](#screenshot-placeholder-1)
+![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/output2.PNG)
 
 ---
 
