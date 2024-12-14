@@ -53,7 +53,7 @@ When the program is executed, it creates 10 threads, each printing a line that i
    ![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/output1.PNG)
 
   - Multithreading Behavior:
-   The output suggests that there are multiple threads (4, 2, 1) running in parallel, each printing its own ID and count.
+   The output suggests that there are multiple threads running in parallel, each printing its own ID and count.
    Each thread runs a loop, incrementing its count from 0 to 9 and printing it along with its ID.
   - Order of Output:
    The output is interleaved because threads are running concurrently. The operating system schedules the threads, and their execution order is unpredictable.
