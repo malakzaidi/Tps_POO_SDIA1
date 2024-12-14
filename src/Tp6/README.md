@@ -1,4 +1,4 @@
-
+(Note : this Readme file was delivered the 8th December 2024 (before the due date) , it was re-uploaded the 14th december because of an unwanted delete , it was back-up)
 # Generics and Input/Output in Java
 
 This project contains solutions to exercises focusing on the concepts of **Generics** and **Input/Output (I/O)** in Java. These exercises aim to solidify understanding of file handling, data serialization, and working with generics to create flexible, type-safe code. Each exercise is structured to solve a practical problem and is accompanied by detailed explanations and screenshots of the implementation and execution.
