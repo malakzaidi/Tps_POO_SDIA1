@@ -1,5 +1,7 @@
 # Multi-threading Exercises in Java 
 
+   ![Screenshot Placeholder](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp7/screenshots/0_KUpV2JHrD_-ffajr.png)
+
 ## Overview
 
 This repository contains two exercises related to multi-threading in Java. Each exercise demonstrates different concepts of concurrent programming, using threads and the `Runnable` interface to perform tasks concurrently.
