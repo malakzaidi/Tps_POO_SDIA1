@@ -2,36 +2,22 @@
 
 This repository contains two Java exercises related to file transfer and client-server communication, implemented with socket programming and Java I/O. Each exercise demonstrates essential concepts such as client-server communication, file handling, and networking.
 
----
-
 ## Table of Contents
 
 1. [Overview](#overview)  
 2. [Exercise 1: Magic Number Game](#exercise-1-magic-number-game)  
-   - [Features](#features)  
-   - [How to Run](#how-to-run)  
-   - [Code](#code)  
-   - [Screenshots](#screenshots)  
 3. [Exercise 2: File Retrieval System](#exercise-2-file-retrieval-system)  
-   - [Features](#features-1)  
-   - [How to Run](#how-to-run-1)  
-   - [Code](#code-1)  
-   - [Screenshots](#screenshots-1)  
 4. [Conclusion](#conclusion)  
 5. [Requirements](#requirements)  
 6. [Highlights](#highlights)  
 7. [Possible Enhancements](#possible-enhancements)  
 8. [Author](#author)  
 
----
-
 ## Overview
 
 This repository contains two exercises:  
 1. **Magic Number Game:** A simple game where clients guess a randomly generated magic number on a server.  
 2. **File Retrieval System:** A file-sharing application where clients request files from a server.  
-
----
 
 ## Exercise 1: Magic Number Game
 
@@ -55,18 +41,11 @@ This repository contains two exercises:
    ```  
 4. Follow the console prompts on the client to guess the number.
 
-### Code
-**Server.java:**  
-![Server Code](src/Tp8/screenshots/Server.PNG)  
+### Implementation Details
+The implementation includes two main components:
 
-**Client.java:**  
-![Client Code](src/Tp8/screenshots/Client.PNG)  
-
-### Screenshots
-**Execution Example:**  
-![Execution Example](src/Tp8/screenshots/exec.PNG)  
-
----
+- **Server**: Handles client connections and manages the game logic
+- **Client**: Provides the user interface for players to make guesses
 
 ## Exercise 2: File Retrieval System
 
@@ -93,47 +72,29 @@ This repository contains two exercises:
    ```  
 5. Follow the client console prompts to request files.
 
-### Code
-**FileServer.java:**  
-![FileServer Code](src/Tp8/screenshots/FileServer.PNG)  
+### Implementation Details
+The file transfer system consists of two main components:
 
-**FileClient.java:**  
-![FileClient Code](src/Tp8/screenshots/FileClient.PNG)  
-
-### Screenshots
-**File Transfer Example:**  
-![Execution Example](src/Tp8/screenshots/exec2.PNG)  
-
-**Large File Transfer Example:**  
-![Large File Execution Example](src/Tp8/screenshots/exec23.PNG)  
-
----
+- **FileServer**: Manages the file repository and handles client requests
+- **FileClient**: Provides interface for users to request and receive files
 
 ## Conclusion
 
-These exercises illustrate the basics of client-server communication and file transfer using Java. They showcase important concepts in network programming and provide a foundation for building more advanced systems.  
-
----
+These exercises illustrate the basics of client-server communication and file transfer using Java. They showcase important concepts in network programming and provide a foundation for building more advanced systems.
 
 ## Requirements
-- **Java Development Kit (JDK):** Version 8 or later (tested on JDK 21).  
-- **IDE/Editor:** Recommended for managing multiple files (e.g., IntelliJ IDEA, Eclipse, VS Code).  
-
----
+- **Java Development Kit (JDK):** Version 8 or later (tested on JDK 21)  
+- **IDE/Editor:** Recommended for managing multiple files (e.g., IntelliJ IDEA, Eclipse, VS Code)  
 
 ## Highlights
 - **Multithreading:** Both exercises use multithreading to handle multiple client connections.  
 - **Efficient File Transfer:** The file-sharing server employs an 8KB buffer for fast and reliable transfers.  
 - **Security:** Prevents directory traversal attacks by sanitizing file names.  
 
----
-
 ## Possible Enhancements
 1. Add authentication for secure server access.  
 2. Extend the Magic Number Game to include leaderboards or score tracking.  
 3. Add file upload functionality to the file-sharing server.  
-
----
 
 ## Author
 
