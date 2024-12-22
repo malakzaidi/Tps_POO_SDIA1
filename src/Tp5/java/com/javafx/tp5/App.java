@@ -1,10 +1,11 @@
-package com.javafx.tp5;
+package Tp5.java.com.javafx.tp5;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+
 
 public class App extends Application {
 

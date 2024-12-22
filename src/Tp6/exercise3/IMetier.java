@@ -1,4 +1,4 @@
-package exercise3;
+package Tp6.exercise3;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.javafx.tp5.controllers;
+package Tp5.java.com.javafx.tp5.controllers;
 
-import com.javafx.tp5.services.*;
-import com.javafx.tp5.entities.*;
+import Tp5.java.com.javafx.tp5.services.*;
+import Tp5.java.com.javafx.tp5.entities.*;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;

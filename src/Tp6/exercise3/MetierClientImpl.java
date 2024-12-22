@@ -3,8 +3,7 @@ package Tp6.exercise3;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import exercise3.Client;
-public class MetierClientImpl implements exercise3.IMetier<exercise3.Client> {
+public class MetierClientImpl implements IMetier<Client> {
     private List<Client> clients;
     private final String fileName;
 

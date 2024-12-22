@@ -1,7 +1,7 @@
-package com.javafx.tp5.tests;
+package Tp5.java.com.javafx.tp5.tests;
 
-import com.javafx.tp5.services.*;
-import com.javafx.tp5.entities.*;
+import Tp5.java.com.javafx.tp5.services.*;
+import Tp5.java.com.javafx.tp5.entities.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;

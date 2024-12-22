@@ -1,7 +1,6 @@
 package Tp6.exercise3;
 
 import java.util.Scanner;
-import exercise3.Produit;
 public class ApplicationProduit {
     public static void main(String[] args) {
         MetierProduitImpl metier = new MetierProduitImpl("produits.dat");

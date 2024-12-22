@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        exercise2.DossierContact dossier = new exercise2.DossierContact("contacts");
+        DossierContact dossier = new DossierContact("contacts");
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1. Rechercher un numéro de téléphone.");

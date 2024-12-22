@@ -1,4 +1,4 @@
-package Exercise1;
+package Tp7.Exercise1;
 
 public class Talkactive implements Runnable {
     private final int id;

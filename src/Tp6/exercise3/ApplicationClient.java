@@ -1,6 +1,6 @@
 package Tp6.exercise3;
 import java.util.Scanner;
-import exercise3.Client;
+
 
 public class ApplicationClient {
     public static void main(String[] args) {

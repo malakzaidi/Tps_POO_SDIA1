@@ -3,8 +3,7 @@ package  Tp6.exercise3;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import exercise3.Produit;
-import exercise3.IMetier;
+
 public class MetierProduitImpl implements IMetier<Produit> {
     private List<Produit> produits;
     private final String fileName;

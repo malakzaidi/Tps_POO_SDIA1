@@ -2,7 +2,7 @@ package Tp4.Collections.Exercice1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-public class GestionProduitApp {
+public class GestionProduitsApp {
     public static void main(String[] args) {
         ArrayList<Produit> produits = new ArrayList<>();
         Scanner sc = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package com.javafx.tp5.entities;
+package Tp5.java.com.javafx.tp5.entities;
 
 
 import lombok.AllArgsConstructor;

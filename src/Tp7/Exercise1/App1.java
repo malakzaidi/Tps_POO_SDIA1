@@ -1,4 +1,4 @@
-package Exercise1;
+package Tp7.Exercise1;
 
 public class App1 {
         public static void main(String[] args) {

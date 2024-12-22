@@ -1,7 +1,7 @@
-package com.javafx.tp5.controllers;
+package Tp5.java.com.javafx.tp5.controllers;
 
-import com.javafx.tp5.services.*;
-import com.javafx.tp5.entities.*;
+
+import Tp5.java.com.javafx.tp5.entities.Departement;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -13,7 +13,9 @@ import javafx.scene.layout.VBox;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.text.SimpleDateFormat;
-
+import Tp5.java.com.javafx.tp5.entities.Professeur;
+import Tp5.java.com.javafx.tp5.services.IMetier;
+import Tp5.java.com.javafx.tp5.services.MetierImpl;
 
 public class DepartementController implements Initializable {
     private final IMetier metier = new MetierImpl();

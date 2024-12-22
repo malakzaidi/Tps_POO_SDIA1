@@ -1,4 +1,4 @@
-package com.javafx.tp5.tests;
+package Tp5.java.com.javafx.tp5.tests;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

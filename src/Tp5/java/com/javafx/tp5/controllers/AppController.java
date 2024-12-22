@@ -1,4 +1,4 @@
-package com.javafx.tp5.controllers;
+package Tp5.java.com.javafx.tp5.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TabPane;

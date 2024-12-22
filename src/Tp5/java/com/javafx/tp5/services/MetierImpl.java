@@ -1,7 +1,7 @@
-package com.javafx.tp5.services;
+package Tp5.java.com.javafx.tp5.services;
 
-import com.javafx.tp5.entities.*;
-import com.javafx.tp5.utils.SingletonConnexionDB;
+import Tp5.java.com.javafx.tp5.entities.*;
+import Tp5.java.com.javafx.tp5.utils.SingletonConnexionDB;
 
 import java.sql.*;
 import java.util.ArrayList;

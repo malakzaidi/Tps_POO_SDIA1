@@ -1,6 +1,6 @@
-import Exercice1.TropViteException;
-import Exercice1.Vehicule;
+package Tp3.Exercice1;
 
+public class App1  {
 public static void main(String[] args) {
     // Créer un objet de la classe véhicule
     Vehicule v = new Vehicule();
@@ -10,4 +10,5 @@ public static void main(String[] args) {
     }
     catch (TropViteException e) {
         e.printStackTrace();} // Affichage de la pile d'appel
+}
 }

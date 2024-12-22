@@ -1,4 +1,4 @@
-package exercise2;
+package Tp6.exercise2;
 
 import java.io.*;
 import java.util.*;
