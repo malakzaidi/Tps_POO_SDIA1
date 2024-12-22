@@ -2,6 +2,9 @@
 
 This repository contains two Java exercises related to file transfer and client-server communication, implemented with socket programming and Java I/O. Each exercise demonstrates essential concepts such as client-server communication, file handling, and networking.
 
+![image_alt](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/Overview.PNG?raw=true)
+
+
 ## Table of Contents
 
 1. [Overview](#overview)  
