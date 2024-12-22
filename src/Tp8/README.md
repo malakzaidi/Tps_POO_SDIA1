@@ -41,11 +41,15 @@ This repository contains two exercises:
    ```  
 4. Follow the console prompts on the client to guess the number.
 
-### Implementation Details
-The implementation includes two main components:
+### Implementation
+#### Server Code:
+![Server Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/ClientHandler.PNG?raw=true)
 
-- **Server**: Handles client connections and manages the game logic
-- **Client**: Provides the user interface for players to make guesses
+#### Client Code:
+![Client Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/Client.PNG?raw=true)
+
+#### Execution Example:
+![Execution Example](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/exec.PNG?raw=true)
 
 ## Exercise 2: File Retrieval System
 
@@ -72,11 +76,17 @@ The implementation includes two main components:
    ```  
 5. Follow the client console prompts to request files.
 
-### Implementation Details
-The file transfer system consists of two main components:
+### Implementation
+#### FileServer Code:
+![FileServer Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/FileServer.PNG?raw=true)
 
-- **FileServer**: Manages the file repository and handles client requests
-- **FileClient**: Provides interface for users to request and receive files
+#### FileClient Code:
+![FileClient Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/FileClient.PNG?raw=true)
+
+#### File Transfer Examples:
+![File Transfer Example](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/exec2.PNG?raw=true)
+
+![Large File Transfer Example](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/exec23.PNG?raw=true)
 
 ## Conclusion
 
