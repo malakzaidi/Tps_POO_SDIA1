@@ -1,4 +1,4 @@
-# README: Java Exercises - File Transfer & Client-Server Communication
+# Java Exercises - File Transfer & Client-Server Communication
 
 This repository contains two Java exercises related to file transfer and client-server communication, implemented with socket programming and basic Java I/O. Each exercise demonstrates essential concepts such as client-server communication, file handling, and networking.
 
