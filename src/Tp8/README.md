@@ -43,7 +43,7 @@ This repository contains two exercises:
 
 ### Implementation
 #### Server Code:
-![Server Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/ClientHandler.PNG?raw=true)
+![Server Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/Server.PNG?raw=true)
 
 #### Client Code:
 ![Client Code](https://github.com/malakzaidi/Tps_POO_SDIA1/blob/main/src/Tp8/screenshots/Client.PNG?raw=true)
