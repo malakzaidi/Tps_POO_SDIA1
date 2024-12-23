@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.javafx.test.controllers.ConsultationController">
+    <VBox spacing="10" AnchorPane.topAnchor="10.0"
+          AnchorPane.leftAnchor="10.0"
+          AnchorPane.rightAnchor="10.0"
+          AnchorPane.bottomAnchor="10.0">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <DatePicker fx:id="dateFilter" promptText="Filtrer par date"/>
+            <ComboBox fx:id="medecinFilter" promptText="Filtrer par médecin"/>
+            <ComboBox fx:id="patientFilter" promptText="Filtrer par patient"/>
+            <Button text="Nouvelle Consultation" onAction="#handleNewConsultation"/>
+        </HBox>
+
+        <TableView fx:id="consultationTable" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="dateColumn" text="Date"/>
+                <TableColumn fx:id="patientColumn" text="Patient"/>
+                <TableColumn fx:id="medecinColumn" text="Médecin"/>
+                <TableColumn fx:id="motifColumn" text="Motif"/>
+                <TableColumn fx:id="diagnosticColumn" text="Diagnostic"/>
+                <TableColumn fx:id="prescriptionColumn" text="Prescription"/>
+                <TableColumn fx:id="actionsColumn" text="Actions"/>
+            </columns>
+        </TableView>
+    </VBox>
+</AnchorPane>

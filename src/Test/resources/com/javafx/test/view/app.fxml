@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.javafx.test.controllers.AppController">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="File">
+                    <items>
+                        <MenuItem text="Exit" onAction="#handleExit"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Médecins">
+                    <content>
+                        <fx:include source="/com/javafx/test/view/medecin.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Patients">
+                    <content>
+                        <fx:include source="/com/javafx/test/view/patient.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Consultations">
+                    <content>
+                        <fx:include source="/com/javafx/test/view/consultation.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

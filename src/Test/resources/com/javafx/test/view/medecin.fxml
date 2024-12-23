@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.javafx.test.controllers.MedecinController">
+    <VBox spacing="10" alignment="CENTER" AnchorPane.topAnchor="10.0"
+          AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
+          AnchorPane.bottomAnchor="10.0">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+
+        <Label text="Liste des Médecins" style="-fx-font-size: 18px;"/>
+
+        <TableView fx:id="medecinTable">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="nomColumn" text="Nom"/>
+                <TableColumn fx:id="prenomColumn" text="Prénom"/>
+                <TableColumn fx:id="emailColumn" text="Email"/>
+                <TableColumn fx:id="telColumn" text="Téléphone"/>
+                <TableColumn fx:id="actionsColumn" text="Actions"/>
+            </columns>
+        </TableView>
+
+        <Button text="Ajouter un Médecin" onAction="#handleNewMedecin"/>
+    </VBox>
+</AnchorPane>

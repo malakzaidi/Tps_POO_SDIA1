@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.javafx</groupId>
-    <artifactId>javafx</artifactId>
+    <artifactId>Test</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>javafx</name>
+    <name>Test</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
